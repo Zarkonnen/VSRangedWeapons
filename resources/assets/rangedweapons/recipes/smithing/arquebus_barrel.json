@@ -1,0 +1,18 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel"] },
+	pattern: [[
+		"##########",
+		"##########",
+		"##########"
+	],[
+		"##########",
+		"__________",
+		"##########"
+	],[
+		"##########",
+		"##########",
+		"##########"
+	]],
+	name: "Arquebus Barrel",
+	output: { type: "item", code: "arquebus_barrel" }
+}

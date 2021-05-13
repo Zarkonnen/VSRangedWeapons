@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "BRW,BRW,BRW",
+	ingredients: {
+		"B": { type: "item", code: "game:bone" },
+		"R": { type: "item", code: "game:resin" },
+		"W": { type: "item", code: "game:plank-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "crossbow_lath-composite", quantity: 1  }
+}

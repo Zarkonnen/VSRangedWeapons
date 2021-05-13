@@ -1,0 +1,80 @@
+{
+	code: "crossbow",
+	class: "ItemRangedWeapon",
+	variantgroups: [
+		{ code: "material", states: ["composite", "iron", "meteoriciron", "steel" ] },
+	],
+	maxstacksize: 1,
+	durability: 400,
+	shape: {
+		base: "xbow",
+		alternates: [
+			{ base: "xbow-draw-0" },
+			{ base: "xbow-draw-1" },
+			{ base: "xbow-draw-2" },
+			{ base: "xbow-draw-3" },
+			{ base: "xbow-draw-4" },
+			{ base: "xbow-draw-5" },
+			{ base: "xbow-draw-6" },
+		]
+	},
+	texturesByType: {
+		"*-composite": {
+			"lath": { base: "game:block/wood/oak-dark" }
+		},
+		"*": {
+			"lath": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	attributes: {
+		damage: 4,
+		damageByType: {
+			"*-composite": 4.5,
+			"*-iron": 5,
+			"*-meteoriciron": 5.5,
+			"*-steel": 6
+		},
+		toolrackTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 90, z: 0 },
+			origin: { x: 0.4, y: -0.6, z: 0.75 },
+			scale: 1.8
+		},
+		projectile: "firedbolt-*",
+		ammo: "crossbow_bolt-*",
+		stayLoaded: true,
+		loadedVariant: 8,
+		numDrawStages: 7,
+		releaseSound: "game:sounds/bow-release",
+		loadSound: "sounds/crossbow-load",
+		drawTime: 4,
+		drawSpeed: 2.2,
+		projectileSpeed: 1.5
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 1.5, y: -1.3, z: 0.5 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 126, y: -142, z: 0 },
+		origin: { x: 0.53, y: 0, z: 0.63 },
+		scale: 2.03
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 90 },
+		origin: { x: 0.45, y: 0, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransform: {
+		translation: { x: -0.55, y: -0.45, z: -0.5 },
+		rotation: { x: 90, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1
+	}
+}

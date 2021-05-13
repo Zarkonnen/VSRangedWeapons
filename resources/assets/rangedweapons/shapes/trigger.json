@@ -1,0 +1,75 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"tinbronze": "game:block/metal/ingot/tinbronze"
+	},
+	"elements": [
+		{
+			"name": "Cube1",
+			"from": [ 8.0, 0.0, 7.0 ], 
+			"to": [ 13.0, 1.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"east": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"west": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 5.0, 1.0 ] },
+				"down": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 5.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 5.0, 0.0, 0.0 ], 
+					"to": [ 6.0, 1.0, 4.0 ], 
+					"rotationOrigin": [ 5.0, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+						"south": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 4.0, 1.0 ] },
+						"up": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 4.0 ] },
+						"down": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cube3",
+							"from": [ 1.0, 0.0, 3.0 ], 
+							"to": [ 1.5, 1.0, 4.0 ], 
+							"rotationOrigin": [ 1.0, 0.0, 3.0 ],
+							"faces": {
+								"north": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+								"east": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+								"south": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+								"west": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+								"up": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+								"down": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 0.5, 1.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Cube4",
+					"from": [ -6.6, 0.0, -0.1 ], 
+					"to": [ 0.4, 1.01, 0.91 ], 
+					"rotationOrigin": [ 0.0, 0.0, -0.1 ],
+					"rotationY": -22.5,
+					"faces": {
+						"north": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+						"east": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"south": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+						"west": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"up": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 7.0, 1.0 ] },
+						"down": { "texture": "#tinbronze", "uv": [ 0.0, 0.0, 7.0, 1.0 ] }
+					}
+				}
+			]
+		}
+	]}

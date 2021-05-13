@@ -1,0 +1,42 @@
+{
+	code: "crossbow_lath",
+	variantgroups: [
+		{ code: "material", states: ["composite", "iron", "meteoriciron", "steel" ] },
+	],
+	texturesByType: {
+		"*-composite": {
+			"lath": { base: "game:block/wood/oak-dark" }
+		},
+		"*": {
+			"lath": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	
+	shape: {  base: "xbow-lath" },
+	
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: -0.6, y: -1.2, z: -0.8 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -90, y: -37, z: 0 },
+		origin: { x: 0.02, y: 0, z: 0.07 },
+		scale: 2.1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0, y: 0.5, z: 0 },
+		scale: 1
+	}
+}

@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "H	S",
+	ingredients: {
+		"H": { type: "item", code: "bolthead-*", name: "metal" },
+		"S": { type: "item", code: "game:stick" },
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "crossbow_bolt-{metal}", quantity: 1  }
+}

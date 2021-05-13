@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"__########__",
+		"###______###",
+	],[
+		"__########__",
+		"###______###",
+	]],
+	name: "Crossbow Lath",
+	output: { type: "item", code: "crossbow_lath-{metal}" }
+}

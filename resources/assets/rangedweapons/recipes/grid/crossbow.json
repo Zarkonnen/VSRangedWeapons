@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "_F_,LTW,_F_",
+	ingredients: {
+		"L": { type: "item", code: "crossbow_lath-*", name: "metal" },
+		"F": { type: "item", code: "game:flaxtwine" },
+		"T": { type: "item", code: "trigger-*" },
+		"W": { type: "item", code: "game:plank-*" }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "crossbow-{metal}", quantity: 1  }
+}

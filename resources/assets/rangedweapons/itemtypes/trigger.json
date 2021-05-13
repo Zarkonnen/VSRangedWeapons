@@ -1,0 +1,39 @@
+{
+	code: "trigger",
+	variantgroups: [
+		{ code: "material", states: ["tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+	],
+	texturesByType: {
+		"*": {
+			"tinbronze": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	
+	shape: {  base: "trigger" },
+	
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: -0.1, y: 0.3, z: 0 },
+		rotation: { x: 30, y: 0, z: 0 },
+		origin: { x: 0.5, y: -0.5, z: 0.5 },
+		scale: 2
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: -21, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.1
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.5, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.5, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.1, y: 0.1, z: 0.14 },
+		scale: 0.69
+	}
+}

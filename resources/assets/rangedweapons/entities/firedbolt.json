@@ -1,0 +1,45 @@
+{
+	code: "firedbolt",
+	class: "EntityProjectile",
+	variantgroups: [
+		{ code: "material", states: ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+hitboxSize: { x: 0.125, y: 0.125 },
+	client: {
+		renderer: "Shape",
+		texturesByType: {
+			"*-flint": {
+				"copper": { base: "block/stone/flint" }
+			},
+			"*": {
+				"copper": { base: "game:block/metal/ingot/{material}" }
+			}
+		},
+		textures: {
+			"copper": { base: "game:block/metal/ingot/{material}" }
+		},
+		shape: { base: "bolt" },
+		size: 1,
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 300 }
+		],
+	},
+	sounds: {
+	}
+}

@@ -1,0 +1,37 @@
+{
+	code: "firedbullet",
+	class: "EntityProjectile",
+	variantgroups: [
+        { code: "material", states: ["copper", "gold", "silver", "bismuth", "lead" ] }
+	],
+	hitboxSize: { x: 0.25, y: 0.25 },
+	client: {
+		renderer: "Shape",
+		textures: {
+			"material": { base: "game:block/metal/ingot/{material}" }
+		},
+		shape: { base: "bullet" },
+		size: 1,
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 300 }
+		],
+	},
+	sounds: {
+	}
+}

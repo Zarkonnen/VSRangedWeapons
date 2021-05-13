@@ -1,0 +1,37 @@
+{
+	code: "slingstone",
+	class: "EntityProjectile",
+	variantgroups: [
+		{ code:"rock", states: ["meteorite-iron"], loadFromProperties: "game:block/rockwithdeposit" }
+	],
+	hitboxSize: { x: 0.25, y: 0.125 },
+	client: {
+		renderer: "Shape",
+		textures: {
+			"material" : { base: "game:block/stone/rock/{rock}1" },
+		},
+		shape: { base: "game:item/stone", rotateX: -90 },
+		size: 1,
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 300 }
+		],
+	},
+	sounds: {
+	}
+}

@@ -1,0 +1,14 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"##_##_##",
+		"#__#__#_",
+		"#__#__#_",
+		"________",
+		"##_##_##",
+		"#__#__#_",
+		"#__#__#_"
+	]],
+	name: "6 Bolt heads",
+	output: { type: "item", code: "bolthead-{metal}", stacksize: 6  }
+}

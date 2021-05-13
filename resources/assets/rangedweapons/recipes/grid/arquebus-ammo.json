@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "FBP",
+	ingredients: {
+		"B": { type: "item", code: "bullet-*", name: "material" },
+		"F": { type: "item", code: "game:flaxtwine" },
+		"P": { type: "item", code: "game:blastingpowder" }
+	},
+	width: 3,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "arquebus_ammo-{material}", quantity: 1  }
+}

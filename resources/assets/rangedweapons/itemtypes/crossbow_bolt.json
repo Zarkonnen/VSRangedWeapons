@@ -1,0 +1,70 @@
+{
+	code: "crossbow_bolt",
+	class: "ItemArrow",
+	variantgroups: [
+		{ code: "material", states: ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	maxstacksize: 64,
+	storageFlags: 513,
+	shape: {  base: "bolt" },
+	texturesByType: {
+		"*-flint": {
+			"copper": { base: "game:block/stone/flint" }
+		},
+		"*": {
+			"copper": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		rotation: { x: -23, y: -45, z: -145 },
+		origin: { x: 0.3, y: -0.45, z: 0 },
+		scale: 1.54
+	},
+	fpHandTransform: {
+		translation: { x: 0.35, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0.9, z: 0.5 },
+		rotation: { x: 87, y: 90, z: -30 },
+		scale: 1.27
+	},
+	tpHandTransform: {
+		translation: { x: -1.05, y: -0.59, z: -0.96 },
+		rotation: { x: 0, y: 2, z: 3 },
+		scale: 0.48
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.64
+	},
+	attributes: {
+		damageByType: {
+			"*-flint": -0.5,
+			"*-copper": 0,
+			"*-tinbronze": 1,
+			"*-gold": 1,
+			"*-silver": 1,
+			"*-bismuthbronze": 1,
+			"*-blackbronze": 1.5,
+			"*-iron": 2,
+			"*-meteoriciron": 2.25,
+			"*-steel": 2.5
+		},
+		breakChanceOnImpactByType: {
+			"*-flint": 0.5,
+			"*-copper": 0.3,
+			"*-tinbronze": 0.25,
+			"*-gold": 0.3,
+			"*-silver": 0.3,
+			"*-bismuthbronze": 0.25,
+			"*-blackbronze": 0.2,
+			"*-iron": 0.2,
+			"*-meteoriciron": 0.2,
+			"*-steel": 0.15
+		},
+		handbook: {
+			groupBy: ["bolt-*"]
+		}
+	},
+}
