@@ -4,7 +4,7 @@ using Vintagestory.API.Server;
 
 [assembly: ModInfo( "RangedWeapons",
 	Description = "Implements a more flexible ranged weapons system.",
-	Website     = "https://github.com/copygirl/howto-example-mod",
+	Website     = "https://github.com/Zarkonnen/VSRangedWeapons",
 	Authors     = new []{ "Zarkonnen" } )]
 
 namespace RangedWeapons
