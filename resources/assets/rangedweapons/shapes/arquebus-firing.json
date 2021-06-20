@@ -107,12 +107,12 @@
 											"shade": false,
 											"rotationOrigin": [ 0.0, 0.0, 1.8 ],
 											"faces": {
-												"north": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-												"east": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-												"south": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-												"west": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-												"up": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false },
-												"down": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "autoUv": false }
+												"north": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "glow": 100, "autoUv": false },
+												"east": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "glow": 100, "autoUv": false },
+												"south": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "glow": 100, "autoUv": false },
+												"west": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "glow": 100, "autoUv": false },
+												"up": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "glow": 100, "autoUv": false },
+												"down": { "texture": "#fire", "uv": [ 0.0, 0.0, 5.0, 5.0 ], "glow": 100, "autoUv": false }
 											}
 										}
 									]

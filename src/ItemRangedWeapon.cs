@@ -445,6 +445,7 @@ namespace RangedWeapons
             ((EntityProjectile)entity).DropOnImpactChance = 1 - breakChance;
 
             float acc = Math.Max(0.001f, (1 - interactingEntity.Attributes.GetFloat("aimingAccuracy", 0)));
+            System.Console.WriteLine("acc: " + acc);
             double rndpitch = interactingEntity.WatchedAttributes.GetDouble("aimingRandPitch", 1) * acc * 0.75;
             double rndyaw = interactingEntity.WatchedAttributes.GetDouble("aimingRandYaw", 1) * acc * 0.75;
             

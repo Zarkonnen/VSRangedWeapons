@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "BS",
+	ingredients: {
+		"B": { type: "item", code: "hand_cannon_barrel-*", name: "metal" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 2,
+	height: 1,
+	output: { type: "item", code: "hand_cannon-{metal}", quantity: 1  }
+}

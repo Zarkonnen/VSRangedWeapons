@@ -5,7 +5,12 @@
 		{ code: "material", states: ["composite", "iron", "meteoriciron", "steel" ] },
 	],
 	maxstacksize: 1,
-	durability: 400,
+	durabilityByType:{
+		"*-composite": 300,
+		"*-iron": 400,
+		"*-meteoriciron": 600,
+		"*-steel": 500
+	},
 	shape: {
 		base: "xbow",
 		alternates: [

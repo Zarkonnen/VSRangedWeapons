@@ -1,0 +1,26 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["brass", "bismuthbronze", "tinbronze", "blackbronze", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+		"##########",
+		"##########",
+		"##########",
+		"##########"
+	],[
+		"##########",
+		"________#_",
+		"________#_",
+		"##########"
+	],[
+		"##########",
+		"________#_",
+		"________#_",
+		"##########"
+	],[
+		"##########",
+		"##########",
+		"##########",
+		"##########"
+	]],
+	name: "Hand Cannon Barrel",
+	output: { type: "item", code: "hand_cannon_barrel-{metal}" }
+}
