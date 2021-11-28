@@ -6,5 +6,5 @@
 	},
 	width: 1,
 	height: 2,
-	output: { type: "item", code: "crossbow_bolt-{metal}", quantity: 1  }
+	output: { type: "item", code: "crossbow_bolt-{metal}-clean", quantity: 1  }
 }

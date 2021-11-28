@@ -410,6 +410,8 @@ namespace RangedWeapons
 
             string ammoMaterial = ammoSlot.Itemstack.Collectible.FirstCodePart(1);
             float damage = 0;
+            int poison = 0;
+            float poisonInterval = 1f;
 
             // Weapon damage
             if (slot.Itemstack.Collectible.Attributes != null)
@@ -421,6 +423,8 @@ namespace RangedWeapons
             if (ammoSlot.Itemstack.Collectible.Attributes != null)
             {
                 damage += ammoSlot.Itemstack.Collectible.Attributes["damage"].AsFloat(0);
+                poison += ammoSlot.Itemstack.Collectible.Attributes["poisonDamage"].AsInt(0);
+                poisonInterval = ammoSlot.Itemstack.Collectible.Attributes["poisonDamageInterval"].AsFloat(1);
             }
 
             ItemStack stack = ammoSlot.TakeOut(1);
@@ -439,10 +443,23 @@ namespace RangedWeapons
 
             EntityProperties type = interactingEntity.World.GetEntityType(AssetLocation.Create(Attributes["projectile"].AsString("arrow-*").Replace("*", ammoMaterial), Code.Domain));
             Entity entity = interactingEntity.World.ClassRegistry.CreateEntity(type);
-            ((EntityProjectile)entity).FiredBy = interactingEntity;
-            ((EntityProjectile)entity).Damage = damage;
-            ((EntityProjectile)entity).ProjectileStack = stack;
-            ((EntityProjectile)entity).DropOnImpactChance = 1 - breakChance;
+            if (entity is EntityProjectile)
+            {
+                ((EntityProjectile)entity).FiredBy = interactingEntity;
+                ((EntityProjectile)entity).Damage = damage;
+                ((EntityProjectile)entity).ProjectileStack = stack;
+                ((EntityProjectile)entity).DropOnImpactChance = 1 - breakChance;
+            }
+            if (entity is EntityPoisonProjectile)
+            {
+                ((EntityPoisonProjectile)entity).FiredBy = interactingEntity;
+                ((EntityPoisonProjectile)entity).Damage = damage;
+                ((EntityPoisonProjectile)entity).ProjectileStack = stack;
+                ((EntityPoisonProjectile)entity).DropOnImpactChance = 1 - breakChance;
+                ((EntityPoisonProjectile)entity).PoisonDamage = poison;
+                ((EntityPoisonProjectile)entity).PoisonDamageInterval = poisonInterval;
+            }
+            
 
             float acc = Math.Max(0.001f, (1 - interactingEntity.Attributes.GetFloat("aimingAccuracy", 0)));
             System.Console.WriteLine("acc: " + acc);
@@ -466,7 +483,14 @@ namespace RangedWeapons
 
             entity.Pos.SetFrom(entity.ServerPos);
             entity.World = interactingEntity.World;
-            ((EntityProjectile)entity).SetRotation();
+            if (entity is EntityProjectile)
+            {
+                ((EntityProjectile)entity).SetRotation();
+            }
+            if (entity is EntityPoisonProjectile)
+            {
+                ((EntityPoisonProjectile)entity).SetRotation();
+            }
 
             interactingEntity.World.SpawnEntity(entity);
 

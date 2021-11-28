@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "B	P",
+	ingredients: {
+		"B": { type: "item", code: "crossbow_bolt-*-clean", name: "metal", quantity: 8 },
+		"P": { type: "block", code: "poisonbowl", returnedStack: { type: "block", code: "game:bowl-burned" } },
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "crossbow_bolt-{metal}-poison", quantity: 8  }
+}

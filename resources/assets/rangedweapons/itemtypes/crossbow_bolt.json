@@ -3,12 +3,13 @@
 	class: "ItemArrow",
 	variantgroups: [
 		{ code: "material", states: ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+		{ code: "coating", states: ["clean", "poison" ] },
 	],
 	maxstacksize: 64,
 	storageFlags: 513,
 	shape: {  base: "bolt" },
 	texturesByType: {
-		"*-flint": {
+		"*-flint-*": {
 			"copper": { base: "game:block/stone/flint" }
 		},
 		"*": {
@@ -40,29 +41,35 @@
 	},
 	attributes: {
 		damageByType: {
-			"*-flint": -0.5,
-			"*-copper": 0,
-			"*-tinbronze": 1,
-			"*-gold": 1,
-			"*-silver": 1,
-			"*-bismuthbronze": 1,
-			"*-blackbronze": 1.5,
-			"*-iron": 2,
-			"*-meteoriciron": 2.25,
-			"*-steel": 2.5
+			"*-flint-*": -0.5,
+			"*-copper-*": 0,
+			"*-tinbronze-*": 1,
+			"*-gold-*": 1,
+			"*-silver-*": 1,
+			"*-bismuthbronze-*": 1,
+			"*-blackbronze-*": 1.5,
+			"*-iron-*": 2,
+			"*-meteoriciron-*": 2.25,
+			"*-steel-*": 2.5
 		},
 		breakChanceOnImpactByType: {
-			"*-flint": 0.5,
-			"*-copper": 0.3,
-			"*-tinbronze": 0.25,
-			"*-gold": 0.3,
-			"*-silver": 0.3,
-			"*-bismuthbronze": 0.25,
-			"*-blackbronze": 0.2,
-			"*-iron": 0.2,
-			"*-meteoriciron": 0.2,
-			"*-steel": 0.15
+			"*-poison": 1,
+			"*-flint-*": 0.5,
+			"*-copper-*": 0.3,
+			"*-tinbronze-*": 0.25,
+			"*-gold-*": 0.3,
+			"*-silver-*": 0.3,
+			"*-bismuthbronze-*": 0.25,
+			"*-blackbronze-*": 0.2,
+			"*-iron-*": 0.2,
+			"*-meteoriciron-*": 0.2,
+			"*-steel-*": 0.15
 		},
+		poisonDamageByType: {
+			"*-clean": 0,
+			"*-poison": 10
+		},
+        poisonDamageInterval: 10,
 		handbook: {
 			groupBy: ["bolt-*"]
 		}

@@ -1,6 +1,6 @@
 {
 	code: "firedbolt",
-	class: "EntityProjectile",
+	class: "EntityPoisonProjectile",
 	variantgroups: [
 		{ code: "material", states: ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
 	],
