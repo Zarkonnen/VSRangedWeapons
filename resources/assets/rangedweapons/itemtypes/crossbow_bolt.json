@@ -72,7 +72,6 @@
 			"*-clean": 0,
 			"*-poison": 9
 		},
-        poisonDamageInterval: 12,
 		handbook: {
 			groupBy: ["bolt-*"]
 		}

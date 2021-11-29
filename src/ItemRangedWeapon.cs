@@ -411,7 +411,6 @@ namespace RangedWeapons
             string ammoMaterial = ammoSlot.Itemstack.Collectible.FirstCodePart(1);
             float damage = 0;
             int poison = 0;
-            float poisonInterval = 1f;
 
             // Weapon damage
             if (slot.Itemstack.Collectible.Attributes != null)
@@ -424,7 +423,6 @@ namespace RangedWeapons
             {
                 damage += ammoSlot.Itemstack.Collectible.Attributes["damage"].AsFloat(0);
                 poison += ammoSlot.Itemstack.Collectible.Attributes["poisonDamage"].AsInt(0);
-                poisonInterval = ammoSlot.Itemstack.Collectible.Attributes["poisonDamageInterval"].AsFloat(1);
             }
 
             ItemStack stack = ammoSlot.TakeOut(1);
@@ -457,7 +455,6 @@ namespace RangedWeapons
                 ((EntityPoisonProjectile)entity).ProjectileStack = stack;
                 ((EntityPoisonProjectile)entity).DropOnImpactChance = 1 - breakChance;
                 ((EntityPoisonProjectile)entity).PoisonDamage = poison;
-                ((EntityPoisonProjectile)entity).PoisonDamageInterval = poisonInterval;
             }
             
 

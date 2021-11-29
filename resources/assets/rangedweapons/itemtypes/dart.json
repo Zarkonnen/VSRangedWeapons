@@ -40,7 +40,6 @@
 			"*-clean": 0,
 			"*-poison": 6
 		},
-        poisonDamageInterval: 12,
 		handbook: {
 			groupBy: ["dart-*"]
 		}

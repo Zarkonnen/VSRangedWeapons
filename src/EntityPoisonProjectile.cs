@@ -28,7 +28,6 @@ namespace RangedWeapons
         public float Weight = 0.1f;
         public float Damage;
         public int PoisonDamage;
-        public float PoisonDamageInterval;
         public ItemStack ProjectileStack;
         public float DropOnImpactChance = 0f;
         public bool DamageStackOnImpact = false;
@@ -258,10 +257,8 @@ namespace RangedWeapons
 
                 if (PoisonDamage > 0)
                 {
-                    PoisonedBehavior poisonB = (PoisonedBehavior) entity.World.ClassRegistry.CreateEntityBehavior(entity, "PoisonedBehavior");
-                    poisonB.poison = PoisonDamage;
-                    poisonB.poisonInterval = PoisonDamageInterval;
-                    entity.AddBehavior(poisonB);
+                    int poison = entity.WatchedAttributes.GetInt("poisonedAmount", 0) + PoisonDamage;
+                    entity.WatchedAttributes.SetInt("poisonedAmount", poison);
                 }
 
                 float kbresist = entity.Properties.KnockbackResistance;

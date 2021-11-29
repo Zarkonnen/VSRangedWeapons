@@ -17,7 +17,7 @@ namespace RangedWeapons
 			api.RegisterItemClass("ItemRangedWeapon", typeof(ItemRangedWeapon));
 			api.RegisterItemClass("ItemPoisonArrow", typeof(ItemPoisonArrow));
 			api.RegisterEntity("EntityPoisonProjectile", typeof(EntityPoisonProjectile));
-			api.RegisterEntityBehaviorClass("PoisonedBehavior", typeof(PoisonedBehavior));
+			api.RegisterEntityBehaviorClass("poisonable", typeof(Poisonable));
 		}
 		
 		public override void StartClientSide(ICoreClientAPI api)

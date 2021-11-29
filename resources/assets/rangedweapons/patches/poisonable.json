@@ -1,0 +1,351 @@
+[
+	{
+		file: "game:entities/land/chicken-baby",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-hen",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-henpoult",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-rooster",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-roosterpoult",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-arctic-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-arctic-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-pup",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hare-baby",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hare-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hare-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hyena-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hyena-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hyena-pup",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/pig-wild-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/pig-wild-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/pig-wild-piglet",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/raccoon-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/raccoon-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/raccoon-pup",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/sheep-bighorn-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/sheep-bighorn-lamb",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/sheep-bighorn-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/wolf-female",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/wolf-male",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/wolf-pup",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/humanoid/player",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	
+	{
+		file: "game:entities/land/chicken-baby",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-hen",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-henpoult",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-rooster",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/chicken-roosterpoult",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-arctic-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-arctic-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/fox-pup",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hare-baby",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hare-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hare-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hyena-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hyena-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/hyena-pup",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/pig-wild-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/pig-wild-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/pig-wild-piglet",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/raccoon-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/raccoon-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/raccoon-pup",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/sheep-bighorn-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/sheep-bighorn-lamb",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/sheep-bighorn-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/wolf-female",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/wolf-male",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/wolf-pup",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/humanoid/player",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+]
