@@ -1,0 +1,31 @@
+{
+	code: "firedblowpipedart",
+	class: "EntityPoisonProjectile",
+	hitboxSize: { x: 0.125, y: 0.125 },
+	client: {
+		renderer: "Shape",
+		shapeByType: { base: "dart" },
+		size: 1,
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "interpolateposition" }
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.25,
+				gravityFactor: 0.75
+			}, 
+			{ code: "despawn", minSeconds: 300 }
+		],
+	},
+	sounds: {
+	}
+}

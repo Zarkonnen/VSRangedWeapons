@@ -38,6 +38,12 @@
 	{
 		file: "game:itemtypes/tool/arrow",
 		op: "replace",
+		path: "/class",
+		value: "ItemPoisonArrow"
+	},
+	{
+		file: "game:itemtypes/tool/arrow",
+		op: "replace",
 		path: "/variantgroups",
 		value: [
 			{ code: "material", states: ["crude", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
@@ -53,12 +59,12 @@
 			"arrow-flint-clean": { base: "item/tool/arrow-stone" },
 			"arrow-gold-clean": { base: "item/tool/arrow-gold" },
 			"arrow-silver-clean": { base: "item/tool/arrow-silver" },
-			"arrow-crude-poison": { base: "item/tool/arrow-crude" },
-			"arrow-flint-poison": { base: "item/tool/arrow-stone" },
-			"arrow-gold-poison": { base: "item/tool/arrow-gold" },
-			"arrow-silver-poison": { base: "item/tool/arrow-silver" },
+			"arrow-crude-poison": { base: "item/tool/arrow-crude-poison" },
+			"arrow-flint-poison": { base: "item/tool/arrow-stone-poison" },
+			"arrow-gold-poison": { base: "item/tool/arrow-gold-poison" },
+			"arrow-silver-poison": { base: "item/tool/arrow-silver-poison" },
 			"*-clean": { base: "item/tool/arrow-copper" },
-			"*-poison": { base: "item/tool/arrow-copper" }
+			"*-poison": { base: "item/tool/arrow-copper-poison" }
 		}
 	},
 	{
@@ -120,13 +126,13 @@
 		path: "/attributes/poisonDamageByType",
 		value: {
 			"*-clean": 0,
-			"*-poison": 10
+			"*-poison": 9
 		}
 	},
 	{
 		file: "game:itemtypes/tool/arrow",
 		op: "add",
 		path: "/attributes/poisonDamageInterval",
-		value: 10
+		value: 12
 	}
 ]

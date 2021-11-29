@@ -1,13 +1,16 @@
 {
 	code: "crossbow_bolt",
-	class: "ItemArrow",
+	class: "ItemPoisonArrow",
 	variantgroups: [
 		{ code: "material", states: ["flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
 		{ code: "coating", states: ["clean", "poison" ] },
 	],
 	maxstacksize: 64,
 	storageFlags: 513,
-	shape: {  base: "bolt" },
+	shapeByType: {
+		"*-clean": { base: "bolt" },
+		"*-poison": { base: "bolt-poison" }
+	},
 	texturesByType: {
 		"*-flint-*": {
 			"copper": { base: "game:block/stone/flint" }
@@ -67,9 +70,9 @@
 		},
 		poisonDamageByType: {
 			"*-clean": 0,
-			"*-poison": 10
+			"*-poison": 9
 		},
-        poisonDamageInterval: 10,
+        poisonDamageInterval: 12,
 		handbook: {
 			groupBy: ["bolt-*"]
 		}

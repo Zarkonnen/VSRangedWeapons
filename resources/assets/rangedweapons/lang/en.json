@@ -98,4 +98,8 @@
     "game:item-arrow-meteoriciron-poison": "Poisoned meteoric iron arrow",
     "game:item-arrow-steel-poison": "Poisoned steel arrow",
     "block-poisonbowl": "Bowl (with Poison)",
+    "item-blowpipedart-clean": "Blowpipe dart",
+    "item-blowpipedart-poison": "Poisoned blowpipe dart",
+    "item-blowpipe": "Blowpipe",
+    "poison-damage-over-time": " poison damage over time",
 }

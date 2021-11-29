@@ -15,6 +15,7 @@ namespace RangedWeapons
 		{
 			//api.RegisterBlockBehaviorClass(InstaTNTBehavior.NAME, typeof(InstaTNTBehavior));
 			api.RegisterItemClass("ItemRangedWeapon", typeof(ItemRangedWeapon));
+			api.RegisterItemClass("ItemPoisonArrow", typeof(ItemPoisonArrow));
 			api.RegisterEntity("EntityPoisonProjectile", typeof(EntityPoisonProjectile));
 			api.RegisterEntityBehaviorClass("PoisonedBehavior", typeof(PoisonedBehavior));
 		}

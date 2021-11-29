@@ -1,0 +1,10 @@
+{
+	ingredientPattern: "K	L",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"L": { type: "block", code: "game:bamboo-placed-brown-segment1" }
+	},
+	width: 1,
+	height: 2,
+	output: { type: "item", code: "blowpipe"  }
+}

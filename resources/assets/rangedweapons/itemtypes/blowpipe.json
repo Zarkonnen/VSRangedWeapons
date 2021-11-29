@@ -1,0 +1,57 @@
+{
+	code: "blowpipe",
+	class: "ItemRangedWeapon",
+	maxstacksize: 1,
+	durability: 100,
+	shape: {
+		base: "blowpipe",
+		alternates: [
+			{ base: "blowpipe" },
+			{ base: "blowpipe" },
+			{ base: "blowpipe" },
+			{ base: "blowpipe" },
+			{ base: "blowpipe" },
+			{ base: "blowpipe" },
+			{ base: "blowpipe" }
+		]
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	attributes: {
+		damage: 1.5,
+		toolrackTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 90, z: 0 },
+			origin: { x: 0.7, y: 0.65, z: 0.85 },
+			scale: 0.8
+		},
+		releaseSound: "sounds/blowpipe",
+		projectile: "firedblowpipedart",
+		ammo: "blowpipedart-*",
+		drawTime: 0.2,
+	},
+	fpHandTransform: {
+		translation: { x: -1.1, y: 0.85, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -129, y: 41, z: -37 },
+		origin: { x: -0.5, y: 0.45, z: 1.05 },
+		scale: 2
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.09, z: 0 },
+		rotation: { x: 0, y: 0, z: 90 },
+		origin: { x: 0.45, y: 0, z: 0.5 },
+		scale: 3
+	},
+	tpHandTransform: {
+		translation: { x: -0.75, y: -0.45, z: -0.7 },
+		rotation: { x: 90, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.69
+	}
+}
