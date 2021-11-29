@@ -1,5 +1,5 @@
 {
-	ingredientPattern: "K	L",
+	ingredientPattern: "L	K",
 	ingredients: {
 		"K": { type: "item", code: "game:knife-*", isTool: true },
 		"L": { type: "block", code: "game:bamboo-placed-brown-segment1" }

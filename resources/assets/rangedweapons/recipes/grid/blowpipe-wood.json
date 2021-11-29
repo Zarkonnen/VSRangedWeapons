@@ -1,5 +1,5 @@
 {
-	ingredientPattern: "K	L",
+	ingredientPattern: "L	K",
 	ingredients: {
 		"K": { type: "item", code: "game:knife-*", isTool: true },
 		"L": { type: "block", code: "game:log-*", allowedVariants: ["placed-birch-ud", "placed-oak-ud", "placed-maple-ud", "placed-pine-ud", "placed-acacia-ud", "placed-redwood-ud", "placed-larch-ud", "placed-baldcypress-ud", "placed-walnut-ud"] }

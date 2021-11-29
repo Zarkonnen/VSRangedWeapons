@@ -1,0 +1,8 @@
+[
+	{
+		file: "primitivesurvival:recipes/grid/spikebundleandstake",
+		op: "replace",
+		path: "/1/shapeless",
+		value: false
+	}
+]

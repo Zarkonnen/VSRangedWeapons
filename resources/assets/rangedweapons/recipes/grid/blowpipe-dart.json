@@ -1,10 +1,12 @@
-{
-	ingredientPattern: "K	L",
-	ingredients: {
-		"K": { type: "item", code: "game:knife-*", isTool: true },
-		"L": { type: "item", code: "game:stick" }
-	},
-	width: 1,
-	height: 2,
-	output: { type: "item", code: "blowpipedart-clean" }
-}
+[
+	{
+		ingredientPattern: "L	K",
+		ingredients: {
+			"K": { type: "item", code: "game:knife-*", isTool: true },
+			"L": { type: "item", code: "game:stick" }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "blowpipedart-clean", quantity: 2 }
+	}
+]
