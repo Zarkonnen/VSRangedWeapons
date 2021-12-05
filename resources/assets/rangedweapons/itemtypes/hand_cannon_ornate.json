@@ -1,0 +1,90 @@
+{
+	code: "hand_cannon_ornate",
+	class: "ItemRangedWeapon",
+	variantgroups: [
+		{ code: "material", states: ["brass", "bismuthbronze", "tinbronze", "blackbronze", "iron", "meteoriciron", "steel" ] },
+		{ code: "decoration", states: ["copper", "gold", "silver", "molybdochalkos" ] }
+	],
+	maxstacksize: 1,
+	durabilityByType:{
+		"*-brass-*": 175,
+		"*-bismuthbronze-*": 225,
+		"*-tinbronze-*": 200,
+		"*-blackbronze-*": 250,
+		"*-iron-*": 350,
+		"*-meteoriciron-*": 400,
+		"*-steel-*": 500
+	},
+	shape: {
+		base: "handcannon-ornate",
+		alternates: [
+			{ base: "handcannon-ornate-loading" },
+			{ base: "handcannon-ornate-loaded" },
+			{ base: "handcannon-ornate-firing" },
+		]
+	},
+	texturesByType: {
+		"*": {
+			"brass": { base: "game:block/metal/ingot/{material}" },
+			"silver": { base: "game:block/metal/ingot/{decoration}" }
+		}
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	attributes: {
+		damageByType: {
+			"*-brass": 6.5,
+			"*-bismuthbronze": 7,
+			"*-tinbronze": 7,
+			"*-blackbronze": 7,
+			"*-iron": 8,
+			"*-meteoriciron": 8.5,
+			"*-steel": 9
+		},
+		toolrackTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 90, z: 0 },
+			origin: { x: 0.7, y: 0.65, z: 0.85 },
+			scale: 0.8
+		},
+		projectile: "firedbullet-*",
+		ammo: "arquebus_ammo-*",
+		stayLoaded: true,
+		loadedVariant: 3,
+		firingVariant: 4,
+		numDrawStages: 1,
+		unloadAfterMilliseconds: 20000,
+		releaseSound: "sounds/cannon",
+		fizzleSound: "sounds/arquebus-fizzle",
+		loadSound: "sounds/arquebus-load",
+		releaseFire: true,
+		waterUnloads: true,
+		drawTime: 4.5,
+		drawSpeed: 1,
+		projectileSpeed: 3
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 1.5, y: -1.1, z: 0.5 },
+		scale: 2.5
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -129, y: 41, z: -37 },
+		origin: { x: -0.7, y: 0.5, z: 0.15 },
+		scale: 0.52
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.09, z: 0 },
+		rotation: { x: 0, y: 0, z: 90 },
+		origin: { x: 0.45, y: 0, z: 0.5 },
+		scale: 3
+	},
+	tpHandTransform: {
+		translation: { x: -0.75, y: -0.45, z: -0.6 },
+		rotation: { x: 90, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.65
+	}
+}

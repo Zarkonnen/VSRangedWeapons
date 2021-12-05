@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "P_,BS",
+	ingredients: {
+		"B": { type: "item", code: "hand_cannon_barrel-*", name: "metal" },
+		"P": { type: "item", code: "game:metalplate-*", name: "decoration", "allowedVariants": ["copper", "silver", "gold", "molybdochalkos"] },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 2,
+	height: 2,
+	output: { type: "item", code: "hand_cannon_ornate-{metal}-{decoration}", quantity: 1  }
+}

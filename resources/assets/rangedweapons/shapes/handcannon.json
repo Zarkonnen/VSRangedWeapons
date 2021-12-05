@@ -11,7 +11,7 @@
 		"handle": "game:item/tool/material/handle",
 		"brass": "game:block/metal/ingot/brass",
 		"linen": "game:block/linen",
-		"fire": "game:block/fire",
+		"fire": "game:block/fire"
 	},
 	"elements": [
 		{
