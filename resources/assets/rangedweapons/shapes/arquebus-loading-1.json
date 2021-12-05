@@ -102,6 +102,37 @@
 						"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 12.0 ] },
 						"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 12.0 ] }
 					}
+				},
+				{
+					"name": "Trigger",
+					"from": [ 0.2, -1.6, 10.5 ], 
+					"to": [ 0.6, -0.6, 10.6 ], 
+					"rotationOrigin": [ 0.2, -1.6, 10.5 ],
+					"faces": {
+						"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+						"east": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+						"south": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+						"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+						"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] },
+						"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] }
+					},
+					"children": [
+						{
+							"name": "Trigger38",
+							"from": [ 0.0, 0.1, 0.15 ], 
+							"to": [ 0.4, 1.1, 0.25 ], 
+							"rotationOrigin": [ 0.0, 0.1, 0.1 ],
+							"rotationX": 135.0,
+							"faces": {
+								"north": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+								"east": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+								"south": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+								"west": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 1.0 ] },
+								"up": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] },
+								"down": { "texture": "#iron", "uv": [ 0.0, 0.0, 0.25, 0.5 ] }
+							}
+						}
+					]
 				}
 			]
 		}

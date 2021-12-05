@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "P__,BTW",
+	ingredients: {
+		"P": { type: "item", code: "game:metalplate-*", name: "decoration", "allowedVariants": ["silver", "gold"] },
+		"B": { type: "item", code: "arquebus_barrel" },
+		"T": { type: "item", code: "trigger-*" },
+		"W": { type: "item", code: "game:plank-*" },
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "arquebus_ornate-{decoration}", quantity: 1  }
+}
