@@ -1,0 +1,200 @@
+[
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "replace",
+		path: "/server/attributes/tradeProps/selling/maxItems",
+		value: 12
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "replace",
+		path: "/server/attributes/tradeProps/selling/list/1/code",
+		value: "arrow-tinbronze-clean"
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "replace",
+		path: "/server/attributes/tradeProps/selling/list/2/code",
+		value: "arrow-bismuthbronze-clean"
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "replace",
+		path: "/server/attributes/tradeProps/selling/list/3/code",
+		value: "arrow-blackbronze-clean"
+	},
+	{
+		file: "game:entities/humanoid/trader-luxuries",
+		op: "replace",
+		path: "/server/attributes/tradeProps/selling/list/20/code",
+		value: "arrow-silver-clean"
+	},
+	{
+		file: "game:entities/humanoid/trader-luxuries",
+		op: "replace",
+		path: "/server/attributes/tradeProps/selling/list/21/code",
+		value: "arrow-gold-clean"
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:arquebus_ammo-lead",
+            "type": "item",
+            "stacksize": 4,
+            "stock": {
+                "avg": 4,
+                "var": 2
+            },
+            "price": {
+                "avg": 2,
+                "var": 0.5
+            }
+        }
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:arquebus_ammo-copper",
+            "type": "item",
+            "stacksize": 4,
+            "stock": {
+                "avg": 4,
+                "var": 2
+            },
+            "price": {
+                "avg": 1.5,
+                "var": 0.5
+            }
+        }
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:crossbow_bolt-blackbronze-clean",
+            "type": "item",
+            "stacksize": 8,
+            "stock": {
+                "avg": 6,
+                "var": 2
+            },
+            "price": {
+                "avg": 3,
+                "var": 0.5
+            }
+        },
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:crossbow_bolt-tinbronze-clean",
+            "type": "item",
+            "stacksize": 8,
+            "stock": {
+                "avg": 6,
+                "var": 2
+            },
+            "price": {
+                "avg": 2,
+                "var": 0.5
+            }
+        },
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:crossbow-composite",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 11,
+                "var": 3
+            }
+        }
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:hand_cannon-bismuthbronze",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 15,
+                "var": 3
+            }
+        }
+	},
+	{
+		file: "game:entities/humanoid/trader-survivalgoods",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:hand_cannon-brass",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 2,
+                "var": 0.5
+            },
+            "price": {
+                "avg": 12,
+                "var": 3
+            }
+        }
+	},
+	{
+		file: "game:entities/humanoid/trader-luxuries",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:hand_cannon_ornate-blackbronze-gold",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 1,
+                "var": 0.25
+            },
+            "price": {
+                "avg": 22,
+                "var": 5
+            }
+        },
+	},
+	{
+		file: "game:entities/humanoid/trader-luxuries",
+		op: "add",
+		path: "/server/attributes/tradeProps/selling/list/-",
+		value: {
+            "code": "rangedweapons:hand_cannon_ornate-brass-silver",
+            "type": "item",
+            "stacksize": 1,
+            "stock": {
+                "avg": 1,
+                "var": 0.25
+            },
+            "price": {
+                "avg": 17,
+                "var": 3
+            }
+        },
+	}
+]

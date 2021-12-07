@@ -73,7 +73,7 @@
 			"*-poison": 9
 		},
 		handbook: {
-			groupBy: ["bolt-*"]
+			groupBy: ["crossbow_bolt-*"]
 		}
 	},
 }

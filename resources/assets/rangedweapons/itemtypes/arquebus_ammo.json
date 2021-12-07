@@ -44,7 +44,7 @@
 		},
 		breakChanceOnImpact: 1,
 		handbook: {
-			groupBy: ["bullet-*"]
+			groupBy: ["arquebus_ammo-*"]
 		}
 	},
 }

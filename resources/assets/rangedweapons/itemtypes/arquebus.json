@@ -39,7 +39,7 @@
 		waterUnloads: true,
 		drawTime: 4.5,
 		drawSpeed: 1,
-		projectileSpeed: 3
+		projectileSpeed: 3,
 	},
 	fpHandTransform: {
 		translation: { x: 0, y: 0, z: 0 },
