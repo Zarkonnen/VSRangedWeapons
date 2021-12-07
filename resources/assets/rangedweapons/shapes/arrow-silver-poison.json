@@ -8,11 +8,11 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"silver3": "block/metal/sheet/silver3",
-		"birch": "block/wood/debarked/birch",
-		"iron": "block/metal/ingot/iron",
-		"feather2": "item/tool/material/feather2",
-		"peat": "block/soil/peat"
+		"silver3": "game:block/metal/sheet/silver3",
+		"birch": "game:block/wood/debarked/birch",
+		"iron": "game:block/metal/ingot/iron",
+		"feather2": "game:item/tool/material/feather2",
+		"peat": "game:block/soil/peat"
 	},
 	"elements": [
 		{

@@ -8,11 +8,11 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"feather": "item/tool/material/feather",
-		"string": "item/tool/material/string",
-		"material": "block/stone/flint",
-		"handle": "item/tool/material/handle",
-		"peat": "block/soil/peat"
+		"feather": "game:item/tool/material/feather",
+		"string": "game:item/tool/material/string",
+		"material": "game:block/stone/flint",
+		"handle": "game:item/tool/material/handle",
+		"peat": "game:block/soil/peat"
 	},
 	"elements": [
 		{

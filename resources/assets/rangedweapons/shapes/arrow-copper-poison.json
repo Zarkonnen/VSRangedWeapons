@@ -8,10 +8,10 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "block/metal/ingot/copper",
-		"feather2": "item/tool/material/feather2",
-		"handle": "item/tool/material/handle",
-		"peat": "block/soil/peat"
+		"material": "game:block/metal/ingot/copper",
+		"feather2": "game:item/tool/material/feather2",
+		"handle": "game:item/tool/material/handle",
+		"peat": "game:block/soil/peat"
 	},
 	"elements": [
 		{

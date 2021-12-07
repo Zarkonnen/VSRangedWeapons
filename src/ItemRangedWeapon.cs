@@ -82,18 +82,36 @@ namespace RangedWeapons
         {
             // This figures out what item types are valid ammo and shows them as an interaction help.
             if (api.Side != EnumAppSide.Client) return;
-            AssetLocation ammoCode = AssetLocation.Create(Attributes["ammo"].AsString("arrow-*"), Code.Domain);
+            List<AssetLocation> locs = new List<AssetLocation>();
+            string codeNames = "";
+            if (Attributes.KeyExists("ammos"))
+            {
+                foreach (string s in Attributes["ammos"].AsArray<string>())
+                {
+                    locs.Add(AssetLocation.Create(s, Code.Domain));
+                    codeNames += "_" + s;
+                }
+            }
+            else
+            {
+                locs.Add(AssetLocation.Create(Attributes["ammo"].AsString("arrow-*"), Code.Domain));
+                codeNames = Attributes["ammo"].AsString("arrow-*");
+            }
             ICoreClientAPI capi = api as ICoreClientAPI;
 
-            interactions = ObjectCacheUtil.GetOrCreate(api, "ranged" + ammoCode + "Interactions", () =>
+            interactions = ObjectCacheUtil.GetOrCreate(api, "ranged" + codeNames + "Interactions", () =>
             {
                 List<ItemStack> stacks = new List<ItemStack>();
                 foreach (CollectibleObject obj in api.World.Collectibles)
                 {
-                    if (WildcardUtil.Match(ammoCode, obj.Code))
+                    foreach (AssetLocation loc in locs)
                     {
-                        // api.Logger.Error("stack " + obj.Code);
-                        stacks.Add(new ItemStack(obj));
+                        if (WildcardUtil.Match(loc, obj.Code))
+                        {
+                            // api.Logger.Error("stack " + obj.Code);
+                            stacks.Add(new ItemStack(obj));
+                            break;
+                        }
                     }
                 }
 
@@ -118,17 +136,31 @@ namespace RangedWeapons
 
         ItemSlot GetNextAmmo(EntityAgent byEntity)
         {
-            AssetLocation ammoCode = AssetLocation.Create(Attributes["ammo"].AsString("arrow-*"), Code.Domain);
+            List<AssetLocation> locs = new List<AssetLocation>();
+            if (Attributes.KeyExists("ammos"))
+            {
+                foreach (string s in Attributes["ammos"].AsArray<string>())
+                {
+                    locs.Add(AssetLocation.Create(s, Code.Domain));
+                }
+            }
+            else
+            {
+                locs.Add(AssetLocation.Create(Attributes["ammo"].AsString("arrow-*"), Code.Domain));
+            }
             ItemSlot slot = null;
             byEntity.WalkInventory((invslot) =>
             {
                 if (invslot is ItemSlotCreative) return true;
 
-                if (invslot.Itemstack != null && WildcardUtil.Match(ammoCode, invslot.Itemstack.Collectible.Code))
+                foreach (AssetLocation loc in locs)
                 {
-                    // api.Logger.Error("ammoSlot " + invslot.Itemstack.Collectible.Code);
-                    slot = invslot;
-                    return false;
+                    if (invslot.Itemstack != null && WildcardUtil.Match(loc, invslot.Itemstack.Collectible.Code))
+                    {
+                        // api.Logger.Error("ammoSlot " + invslot.Itemstack.Collectible.Code);
+                        slot = invslot;
+                        return false;
+                    }
                 }
 
                 return true;
@@ -459,7 +491,7 @@ namespace RangedWeapons
             
 
             float acc = Math.Max(0.001f, (1 - interactingEntity.Attributes.GetFloat("aimingAccuracy", 0)));
-            System.Console.WriteLine("acc: " + acc);
+            //System.Console.WriteLine("acc: " + acc);
             double rndpitch = interactingEntity.WatchedAttributes.GetDouble("aimingRandPitch", 1) * acc * 0.75;
             double rndyaw = interactingEntity.WatchedAttributes.GetDouble("aimingRandYaw", 1) * acc * 0.75;
             

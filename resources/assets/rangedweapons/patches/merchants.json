@@ -7,36 +7,6 @@
 	},
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
-		op: "replace",
-		path: "/server/attributes/tradeProps/selling/list/1/code",
-		value: "arrow-tinbronze-clean"
-	},
-	{
-		file: "game:entities/humanoid/trader-survivalgoods",
-		op: "replace",
-		path: "/server/attributes/tradeProps/selling/list/2/code",
-		value: "arrow-bismuthbronze-clean"
-	},
-	{
-		file: "game:entities/humanoid/trader-survivalgoods",
-		op: "replace",
-		path: "/server/attributes/tradeProps/selling/list/3/code",
-		value: "arrow-blackbronze-clean"
-	},
-	{
-		file: "game:entities/humanoid/trader-luxuries",
-		op: "replace",
-		path: "/server/attributes/tradeProps/selling/list/20/code",
-		value: "arrow-silver-clean"
-	},
-	{
-		file: "game:entities/humanoid/trader-luxuries",
-		op: "replace",
-		path: "/server/attributes/tradeProps/selling/list/21/code",
-		value: "arrow-gold-clean"
-	},
-	{
-		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
 		path: "/server/attributes/tradeProps/selling/list/-",
 		value: {

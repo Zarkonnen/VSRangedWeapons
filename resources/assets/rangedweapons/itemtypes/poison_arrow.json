@@ -1,0 +1,69 @@
+{
+	code: "poison_arrow",
+	class: "ItemPoisonArrow",
+	variantgroups: [
+		{ code: "material", states: ["crude", "flint", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	maxstacksize: 64,
+	storageFlags: 513,
+	shapeByType: { 
+		"poison_arrow-crude": { base: "arrow-crude-poison" },
+		"poison_arrow-flint": { base: "arrow-stone-poison" },
+		"poison_arrow-gold": { base: "arrow-gold-poison" },
+		"poison_arrow-silver": { base: "arrow-silver-poison" },
+		"*": { base: "arrow-copper-poison" }
+	},
+	texturesByType: {
+		"*-crude": {
+
+		},
+		"*-flint": {
+			"material": { base: "game:block/stone/flint" }
+		},
+		"*": {
+			"material": { base: "game:block/metal/ingot/{material}" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		rotation: { x: -23, y: -45, z: -145 },
+		origin: { x: 0.7, y: -0.45, z: 0 },
+		scale: 1.44
+	},
+	fpHandTransform: {
+		translation: { x: 0.35, y: 0, z: 0 },
+		rotation: { x: 87, y: 90, z: -30 },
+		scale: 1.14
+	},
+	tpHandTransform: {
+		translation: { x: -1.05, y: -0.59, z: -0.96 },
+		rotation: { x: 0, y: 2, z: 3 },
+		scale: 0.48
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 90, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.64
+	},
+	attributes: {
+		damageByType: {
+			"*-crude": -0.75,
+			"*-flint": -0.5,
+			"*-copper": 0,
+			"*-tinbronze": 1,
+			"*-gold": 1,
+			"*-silver": 1,
+			"*-bismuthbronze": 1,
+			"*-blackbronze": 1.5,
+			"*-iron": 2,
+			"*-meteoriciron": 2.25,
+			"*-steel": 2.5
+		},
+		breakChanceOnImpact: 1,
+		poisonDamage: 9,
+		handbook: {
+			groupBy: ["arrow-*"]
+		}
+	},
+}

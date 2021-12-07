@@ -8,12 +8,12 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"ebony": "block/wood/debarked/ebony",
-		"feather1": "item/tool/material/feather1",
-		"iron": "block/metal/ingot/iron",
-		"feather2": "item/tool/material/feather2",
-		"gold1": "block/metal/sheet/gold1",
-		"peat": "block/soil/peat"
+		"ebony": "game:block/wood/debarked/ebony",
+		"feather1": "game:item/tool/material/feather1",
+		"iron": "game:block/metal/ingot/iron",
+		"feather2": "game:item/tool/material/feather2",
+		"gold1": "game:block/metal/sheet/gold1",
+		"peat": "game:block/soil/peat"
 	},
 	"elements": [
 		{
