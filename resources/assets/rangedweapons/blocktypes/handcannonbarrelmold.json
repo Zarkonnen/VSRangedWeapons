@@ -5,7 +5,11 @@
 		"handcannonbarrelmold-burned": "BlockToolMold",
 	},
 	behaviorsByType: {
-		"handcannonbarrelmold-raw": [{name: "UnstableFalling"}, {name: "RightClickPickup" }],
+		"handcannonbarrelmold-raw": [
+			{ name: "GroundStorable", properties: { layout: 'SingleCenter' } },
+			{ name: "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" }, 
+			{ name: "RightClickPickup"} 
+		],
 		"*": [{name: "UnstableFalling"}],
 	},
 	variantgroups: [
@@ -28,7 +32,7 @@
 			meltingPoint: 650,
 			meltingDuration: 45,
 			smeltedRatio: 1,
-			smeltingType: "bake",
+			smeltingType: "fire",
 			smeltedStack: { type: "block", code: "handcannonbarrelmold-burned" },
 			requiresContainer: false
 		}
