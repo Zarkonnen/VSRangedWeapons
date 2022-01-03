@@ -86,7 +86,8 @@ namespace RangedWeapons
             string codeNames = "";
             if (Attributes.KeyExists("ammos"))
             {
-                foreach (string s in Attributes["ammos"].AsArray<string>())
+                //foreach (string s in Attributes["ammos"].AsArray<string>())
+                foreach (string s in Attributes["ammos"].AsStringArray()) // Yes, this is deprecated, but the other one compiles wrong.
                 {
                     locs.Add(AssetLocation.Create(s, Code.Domain));
                     codeNames += "_" + s;
@@ -139,7 +140,8 @@ namespace RangedWeapons
             List<AssetLocation> locs = new List<AssetLocation>();
             if (Attributes.KeyExists("ammos"))
             {
-                foreach (string s in Attributes["ammos"].AsArray<string>())
+                //foreach (string s in Attributes["ammos"].AsArray<string>())
+                foreach (string s in Attributes["ammos"].AsStringArray()) // Yes, this is deprecated, but the other one compiles wrong.
                 {
                     locs.Add(AssetLocation.Create(s, Code.Domain));
                 }
