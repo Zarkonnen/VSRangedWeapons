@@ -1,10 +1,16 @@
 {
 	ingredientPattern: "B	P",
 	ingredients: {
-		"B": { type: "item", code: "blowpipedart-clean", name: "metal", quantity: 10 },
-		"P": { type: "block", code: "poisonbowl", returnedStack: { type: "block", code: "game:bowl-burned" } },
+		"B": { type: "item", code: "blowpipedart-clean" },
+		"P": { type: "block", code: "game:bowl-fired" },
 	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "rangedweapons:poisonportion" },
+			requiresLitres: 0.1
+		}
+	},	
 	width: 1,
 	height: 2,
-	output: { type: "item", code: "blowpipedart-poison", quantity: 10  }
+	output: { type: "item", code: "blowpipedart-poison" }
 }

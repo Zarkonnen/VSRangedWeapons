@@ -70,7 +70,7 @@
 		},
 		poisonDamageByType: {
 			"*-clean": 0,
-			"*-poison": 9
+			"*-poison": 12
 		},
 		handbook: {
 			groupBy: ["crossbow_bolt-*"]

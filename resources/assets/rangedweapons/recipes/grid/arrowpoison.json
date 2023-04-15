@@ -1,0 +1,19 @@
+{
+	ingredientPattern: "PRB",
+	ingredients: {
+		"P": { type: "item", code: "rangedweapons:poisonmash", quantity: 6 },
+		"R": { type: "item", code: "game:resin" },
+		"B": { type: "block", code: "game:bowl-fired" },
+	},
+	width: 3,
+	height: 1,
+	shapeless: true,
+	output: {
+		type: "block",
+		code: "game:bowl-fired",
+		attributes: {
+			ucontents: [{ type: "item", code: "rangedweapons:poisonportion", makefull: true }]
+		}
+	}
+}
+

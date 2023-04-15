@@ -1,12 +1,52 @@
-{
-	ingredientPattern: "P	R	B",
-	ingredients: {
-		"P": { type: "block", code: "game:mushroom-flyagaric-normal-free", quantity: 6 },
-		"R": { type: "item", code: "game:resin" },
-		"B": { type: "block", code: "game:bowl-burned" },
+[
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "game:mushroom-*-normal", name: "mushroom", allowedVariants: ["flyagaric", "earthball", "elfinsaddle", "jackolantern", "devilsbolete", "bitterbolete", "devilstooth", "golddropmilkcap"] }
+		},
+		width: 1,
+		height: 1,
+		output: {
+			type: "item",
+			code: "poisonmash"
+		}
 	},
-	width: 1,
-	height: 3,
-	output: { type: "block", code: "poisonbowl"  }
-}
-
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "game:mushroom-pinkbonnet-normal-north", name: "mushroom" }
+		},
+		width: 1,
+		height: 1,
+		output: {
+			type: "item",
+			code: "poisonmash"
+		}
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "game:mushroom-deathcap-normal", name: "mushroom" }
+		},
+		width: 1,
+		height: 1,
+		output: {
+			type: "item",
+			code: "poisonmash",
+			quantity: 3
+		}
+	},
+	{
+		ingredientPattern: "P",
+		ingredients: {
+			"P": { type: "block", code: "game:mushroom-funeralbell-normal-north", name: "mushroom" }
+		},
+		width: 1,
+		height: 1,
+		output: {
+			type: "item",
+			code: "poisonmash",
+			quantity: 3
+		}
+	}
+]

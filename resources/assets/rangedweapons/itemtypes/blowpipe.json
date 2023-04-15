@@ -19,6 +19,7 @@
 	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
 		damage: 1.5,
+		accuracyBonus: 0.2,
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 90, y: 90, z: 0 },

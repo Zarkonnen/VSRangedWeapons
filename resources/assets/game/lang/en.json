@@ -1,0 +1,10 @@
+{
+	"item-poisonportion": "Arrow poison portion",
+    "incontainer-item-poisonportion": "Arrow poison",
+    "craftinginfo-poison-title": "Game Mechanic: Poison",
+    "craftinginfo-poison-text": "<strong>Crafting</strong><br>To obtain arrow poison, first craft lily of the valley or any poisonous mushrooms into poison mash. Then combine six poison mash, one resin, and a bowl to get arrow poison.<br><br>You can then craft the arrow poison with arrows, crossbow bolts, or darts to obtain poisoned versions of those projectiles.<br><br><strong>Usage</strong><br>Shooting animals with a poisoned projectile will cause them to slowly take damage over time. Multiple shots will not increase the speed of the poisoning, but will prolong its effects. Note that poison has no effect on drifters or locusts.",
+    "rangedweapon-separateload": "Requires separate loading.",
+    "rangedweapon-unloadtime": "Unloads after {0} seconds.",
+    "rangedweapon-unloadsinwater": "Unloads in contact with water.",
+    "piercing-damage": " Piercing damage"
+}

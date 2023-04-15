@@ -1,0 +1,9 @@
+{
+	"item-poisonportion": "Pfeilgift-Portion",
+    "incontainer-item-poisonportion": "Pfeilgift",
+    "craftinginfo-poison-title": "Spielmechanik: Gift",
+    "craftinginfo-poison-text": "<strong>Crafting</strong><br>Um Pfeilgift herzustellen, crafte Maiglöckchen oder giftige Pilze zu Gift. Kombiniere dann sechs Gift mit einem Harz und einer Schale, um eine Schale mit Pfeilgift zu bekommen.<br><br>Dann kannst du das Pfeilgift mit Pfeilen oder Bolzen kombinieren, um diese zu vergiften.<br><br><strong>Gebrauch</strong><br>Tiere, die von einem vergifteten Pfeil getroffen wurden nehmen über Zeit Schaden. Mehrere vergiftete Pfeile verlängern diesen Effekt, aber beschleunigen ihn nicht. Gift hat keinen Effekt auf Rumtreiber und Lokusten.",
+    "rangedweapon-separateload": "Muss zuerst geladen werden.",
+    "rangedweapon-unloadtime": "Ist nach {0} Sekunden nicht mehr geladen.",
+    "rangedweapon-unloadsinwater": "Verliert die Ladung im Kontakt mit Wasser."
+}

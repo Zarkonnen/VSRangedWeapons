@@ -30,14 +30,15 @@
 	tool: "bow",
 	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
+		accuracyBonus: -0.2,
 		damageByType: {
-			"*-brass": 6.5,
-			"*-bismuthbronze": 7,
-			"*-tinbronze": 7,
-			"*-blackbronze": 7,
-			"*-iron": 8,
-			"*-meteoriciron": 8.5,
-			"*-steel": 9
+			"*-brass": 7.5,
+			"*-bismuthbronze": 8,
+			"*-tinbronze": 8,
+			"*-blackbronze": 8,
+			"*-iron": 9,
+			"*-meteoriciron": 9.5,
+			"*-steel": 10
 		},
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },

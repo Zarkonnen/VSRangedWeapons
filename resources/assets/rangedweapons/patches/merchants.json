@@ -2,13 +2,13 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "replace",
-		path: "/server/attributes/tradeProps/selling/maxItems",
+		path: " /attributes/tradeProps/selling/maxItems",
 		value: 12
 	},
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:arquebus_ammo-lead",
             "type": "item",
@@ -26,7 +26,7 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:arquebus_ammo-copper",
             "type": "item",
@@ -44,7 +44,7 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:crossbow_bolt-blackbronze-clean",
             "type": "item",
@@ -62,7 +62,7 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:crossbow_bolt-tinbronze-clean",
             "type": "item",
@@ -80,7 +80,7 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:crossbow-composite",
             "type": "item",
@@ -98,7 +98,7 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:hand_cannon-bismuthbronze",
             "type": "item",
@@ -116,7 +116,7 @@
 	{
 		file: "game:entities/humanoid/trader-survivalgoods",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:hand_cannon-brass",
             "type": "item",
@@ -134,7 +134,7 @@
 	{
 		file: "game:entities/humanoid/trader-luxuries",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:hand_cannon_ornate-blackbronze-gold",
             "type": "item",
@@ -152,7 +152,7 @@
 	{
 		file: "game:entities/humanoid/trader-luxuries",
 		op: "add",
-		path: "/server/attributes/tradeProps/selling/list/-",
+		path: " /attributes/tradeProps/selling/list/-",
 		value: {
             "code": "rangedweapons:hand_cannon_ornate-brass-silver",
             "type": "item",

@@ -121,4 +121,9 @@
 	"item-hand_cannon_ornate-steel-molybdochalkos": "Ornate steel hand cannon with molybdochalkos",
 	"item-arquebus_ornate-silver": "Ornate silver arquebus",
 	"item-arquebus_ornate-gold": "Ornate gold arquebus",
+	"item-poisonportion": "Arrow poison portion",
+    "incontainer-item-poisonportion": "Arrow poison",
+    "item-poisonmash": "Poison mash",
+    "item-handbooktitle-poisonmash": "Usage:",
+    "item-handbooktext-poisonmash": "Combine six with a lump of resin and an empty bowl to get arrow poison."
 }

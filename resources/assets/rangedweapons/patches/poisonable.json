@@ -1,5 +1,29 @@
 [
 	{
+		file: "game:entities/land/gazelle",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/gazelle",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/bear",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/land/bear",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
 		file: "game:entities/land/chicken-baby",
 		op: "add",
 		path: "/server/behaviors/-",

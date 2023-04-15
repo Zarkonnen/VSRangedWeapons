@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "P",
+	ingredients: {
+		"P": { type: "block", code: "game:flower-lilyofthevalley-free" }
+	},
+	width: 1,
+	height: 1,
+	output: {
+		type: "item",
+		code: "poisonmash"
+	}
+}
+

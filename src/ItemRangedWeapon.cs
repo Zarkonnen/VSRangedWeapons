@@ -109,7 +109,7 @@ namespace RangedWeapons
                     {
                         if (WildcardUtil.Match(loc, obj.Code))
                         {
-                            // api.Logger.Error("stack " + obj.Code);
+                            api.Logger.Error("stack " + obj.Code);
                             stacks.Add(new ItemStack(obj));
                             break;
                         }
@@ -159,7 +159,7 @@ namespace RangedWeapons
                 {
                     if (invslot.Itemstack != null && WildcardUtil.Match(loc, invslot.Itemstack.Collectible.Code))
                     {
-                        // api.Logger.Error("ammoSlot " + invslot.Itemstack.Collectible.Code);
+                        api.Logger.Error("ammoSlot " + invslot.Itemstack.Collectible.Code);
                         slot = invslot;
                         return false;
                     }
@@ -173,8 +173,9 @@ namespace RangedWeapons
 
         public override void OnHeldInteractStart(ItemSlot slot, EntityAgent interactingEntity, BlockSelection blockSel, EntitySelection entitySel, bool firstEvent, ref EnumHandHandling handling)
         {
-            // api.Logger.Error("interactStart");
+            api.Logger.Error("interactStart");
             checkStillLoaded(slot, interactingEntity);
+            if (handling == EnumHandHandling.PreventDefault) return;
             ItemSlot invslot = GetNextAmmo(interactingEntity);
             if (invslot == null) return;
 
@@ -227,7 +228,7 @@ namespace RangedWeapons
 
         public override bool OnHeldInteractStep(float secondsUsed, ItemSlot slot, EntityAgent interactingEntity, BlockSelection blockSel, EntitySelection entitySel)
         {
-            //// api.Logger.Error("interactStep");
+            api.Logger.Error("interactStep");
             checkStillLoaded(slot, interactingEntity);
             if (slot.Itemstack.Attributes.GetBool("loaded", false)) return true;
 //            if (byEntity.World is IClientWorldAccessor)
@@ -251,7 +252,7 @@ namespace RangedWeapons
 
         public override bool OnHeldInteractCancel(float secondsUsed, ItemSlot slot, EntityAgent interactingEntity, BlockSelection blockSel, EntitySelection entitySel, EnumItemUseCancelReason cancelReason)
         {
-            // api.Logger.Error("interactCancel: " + cancelReason);
+            api.Logger.Error("interactCancel: " + cancelReason);
             interactingEntity.Attributes.SetInt("aiming", 0);
             if (slot.Itemstack.Attributes.GetBool("loaded", false))
             {
@@ -305,7 +306,8 @@ namespace RangedWeapons
                 bool switchedAwayCheck = interactingEntity.World.ElapsedMilliseconds > slot.Itemstack.Attributes.GetLong("switchAwayUnloadTime", 0);
                 if (loadTimeoutCheck || switchedAwayCheck || wetCheck)
                 {
-                    // api.Logger.Error("unload: timeout " + loadTimeoutCheck + " switchedAway " + switchedAwayCheck + " wet " + wetCheck);
+                    api.Logger.Error("unload: timeout " + loadTimeoutCheck + " switchedAway " + switchedAwayCheck + " wet " + wetCheck);
+                    api.Logger.Error("ElapsedMilliseconds " + interactingEntity.World.ElapsedMilliseconds + " vs switchAwayUnloadTime " + slot.Itemstack.Attributes.GetLong("switchAwayUnloadTime", 0));
                     // Weapon timed out or player no longer holding weapon, becomes unloaded.
                     slot.Itemstack.Attributes.SetInt("renderVariant", 0);
                     if (interactingEntity.World is IClientWorldAccessor)
@@ -318,13 +320,13 @@ namespace RangedWeapons
                     {
                         interactingEntity.World.PlaySoundAt(AssetLocation.Create(Attributes["fizzleSound"].AsString(""), Code.Domain), interactingEntity, (interactingEntity as EntityPlayer)?.Player, false, 8);
                     }
-                    // api.Logger.Error("weapon got unloaded");
+                    api.Logger.Error("weapon got unloaded");
                     return false;
                 }
                 else
                 {
                     // Player continues to hold weapon.
-                    slot.Itemstack.Attributes.SetLong("switchAwayUnloadTime", interactingEntity.World.ElapsedMilliseconds + 100);
+                    slot.Itemstack.Attributes.SetLong("switchAwayUnloadTime", interactingEntity.World.ElapsedMilliseconds + 300);
                     return true;
                 }
             }
@@ -345,15 +347,15 @@ namespace RangedWeapons
 
         public override void OnHeldIdle(ItemSlot slot, EntityAgent interactingEntity)
         {
-            //// api.Logger.Error("onHeldIdle");
+            // api.Logger.Error("onHeldIdle");
             checkStillLoaded(slot, interactingEntity);
         }
 
         public override void OnHeldInteractStop(float secondsUsed, ItemSlot slot, EntityAgent interactingEntity, BlockSelection blockSel, EntitySelection entitySel)
         {
-            // api.Logger.Error("interactStop");
-            // api.Logger.Error("loaded? " + slot.Itemstack.Attributes.GetBool("loaded", false));
-            // api.Logger.Error("aimingCancel? " + interactingEntity.Attributes.GetInt("aimingCancel"));
+            api.Logger.Error("interactStop");
+            api.Logger.Error("loaded? " + slot.Itemstack.Attributes.GetBool("loaded", false));
+            api.Logger.Error("aimingCancel? " + interactingEntity.Attributes.GetInt("aimingCancel"));
             interactingEntity.Attributes.SetInt("aiming", 0);
             if (interactingEntity.Attributes.GetInt("aimingCancel") == 1)
             {
@@ -385,15 +387,15 @@ namespace RangedWeapons
                         slot.Itemstack.Attributes.SetInt("renderVariant", 0);
                     }
                     (interactingEntity as EntityPlayer)?.Player?.InventoryManager.BroadcastHotbarSlot();
-                    // api.Logger.Error("loaded fire");
+                    api.Logger.Error("loaded fire");
                     fire(slot, interactingEntity);
                     slot.Itemstack.Attributes.SetBool("loaded", false);
                 }
                 else
                 {
-                    // api.Logger.Error("stayload");
-                    if (secondsUsed < Attributes["drawTime"].AsFloat(0.35f)) return;
-                    // api.Logger.Error("stayload!");
+                    api.Logger.Error("stayload");
+                    if (secondsUsed < Attributes["drawTime"].AsFloat(0.65f)) return;
+                    api.Logger.Error("stayload!");
                     slot.Itemstack.Attributes.SetInt("renderVariant", Attributes["loadedVariant"].AsInt(0));
                     if (interactingEntity.World is IClientWorldAccessor)
                     {
@@ -401,8 +403,8 @@ namespace RangedWeapons
                     }
                     (interactingEntity as EntityPlayer)?.Player?.InventoryManager.BroadcastHotbarSlot();
                     slot.Itemstack.Attributes.SetBool("loaded", true);
-                    // api.Logger.Error("loading after " + secondsUsed);
-                    slot.Itemstack.Attributes.SetLong("switchAwayUnloadTime", interactingEntity.World.ElapsedMilliseconds + 100);
+                    api.Logger.Error("loading after " + secondsUsed);
+                    slot.Itemstack.Attributes.SetLong("switchAwayUnloadTime", interactingEntity.World.ElapsedMilliseconds + 300);
                     RegisterCheckStillLoadedCallback(slot, interactingEntity);
                     int unloadAfterMilliseconds = Attributes["unloadAfterMilliseconds"].AsInt(0);
                     if (unloadAfterMilliseconds != 0)
@@ -413,9 +415,9 @@ namespace RangedWeapons
             }
             else
             {
-                // api.Logger.Error("unstayload");
+                api.Logger.Error("unstayload");
                 if (secondsUsed < Attributes["drawTime"].AsFloat(0.35f)) return;
-                // api.Logger.Error("unstayload!");
+                api.Logger.Error("unstayload!");
                 interactingEntity.AnimManager.StopAnimation(Attributes["aimAnimation"].AsString("bowaim"));
                 int firingVariant = Attributes["firingVariant"].AsInt(-1);
                 if (firingVariant != -1)
@@ -437,19 +439,21 @@ namespace RangedWeapons
 
         public void fire(ItemSlot slot, EntityAgent interactingEntity)
         {
-            // api.Logger.Error("fire");
+            api.Logger.Error("fire");
             ItemSlot ammoSlot = GetNextAmmo(interactingEntity);
             if (ammoSlot == null) return;
-            // api.Logger.Error("fire!");
+            api.Logger.Error("fire!");
 
             string ammoMaterial = ammoSlot.Itemstack.Collectible.FirstCodePart(1);
             float damage = 0;
+            float accuracyBonus = 0f;
             int poison = 0;
 
-            // Weapon damage
+            // Weapon damage and accuracy
             if (slot.Itemstack.Collectible.Attributes != null)
             {
                 damage += slot.Itemstack.Collectible.Attributes["damage"].AsFloat(0);
+                accuracyBonus = 1 - slot.Itemstack.Collectible.Attributes["accuracyBonus"].AsFloat(0);
             }
 
             // Ammo damage
@@ -494,8 +498,8 @@ namespace RangedWeapons
 
             float acc = Math.Max(0.001f, (1 - interactingEntity.Attributes.GetFloat("aimingAccuracy", 0)));
             //System.Console.WriteLine("acc: " + acc);
-            double rndpitch = interactingEntity.WatchedAttributes.GetDouble("aimingRandPitch", 1) * acc * 0.75;
-            double rndyaw = interactingEntity.WatchedAttributes.GetDouble("aimingRandYaw", 1) * acc * 0.75;
+            double rndpitch = interactingEntity.WatchedAttributes.GetDouble("aimingRandPitch", 1) * acc * 0.75 * accuracyBonus;
+            double rndyaw = interactingEntity.WatchedAttributes.GetDouble("aimingRandYaw", 1) * acc * 0.75 * accuracyBonus;
             
             Vec3d pos = interactingEntity.ServerPos.XYZ.Add(0, interactingEntity.LocalEyePos.Y, 0);
             Vec3d aheadPos = pos.AheadCopy(1, interactingEntity.SidedPos.Pitch + rndpitch, interactingEntity.SidedPos.Yaw + rndyaw);
@@ -537,8 +541,14 @@ namespace RangedWeapons
 
             if (inSlot.Itemstack.Collectible.Attributes == null) return;
 
-            float dmg = inSlot.Itemstack.Collectible.Attributes["damage"].AsFloat(0);
+            float dmg = inSlot.Itemstack.Collectible?.Attributes["damage"].AsFloat(0) ?? 0;
             if (dmg != 0) dsc.AppendLine(dmg + Lang.Get("piercing-damage"));
+            float accuracyBonus = inSlot.Itemstack.Collectible?.Attributes["accuracyBonus"].AsFloat(0) ?? 0;
+            if (accuracyBonus != 0) dsc.AppendLine(Lang.Get("bow-accuracybonus", accuracyBonus > 0 ? "+" : "", (int)(100*accuracyBonus)));
+            if (inSlot.Itemstack.Collectible?.Attributes["stayLoaded"].AsBool(false) ?? false) dsc.AppendLine(Lang.Get("rangedweapon-separateload"));
+            int unloadMs = inSlot.Itemstack.Collectible?.Attributes["unloadAfterMilliseconds"].AsInt(0) ?? 0;
+            if (unloadMs != 0) dsc.AppendLine(Lang.Get("rangedweapon-unloadtime", unloadMs / 1000));
+            if (inSlot.Itemstack.Collectible?.Attributes["waterUnloads"].AsBool(false) ?? false) dsc.AppendLine(Lang.Get("rangedweapon-unloadsinwater"));
         }
 
 

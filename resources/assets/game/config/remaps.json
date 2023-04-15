@@ -1,4 +1,7 @@
 {
+	"rangedweapons:0.5-3": [
+		"/bir remap bowl-fired rangedweapons:poisonbowl force",
+	],
 	"rangedweapons:0.5-2": [
 		"/iir remap rangedweapons:crossbow_bolt-flint-clean rangedweapons:crossbow_bolt-flint force",
 		"/iir remap rangedweapons:crossbow_bolt-copper-clean rangedweapons:crossbow_bolt-copper force",

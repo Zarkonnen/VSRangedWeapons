@@ -38,7 +38,7 @@
 		breakChanceOnImpact: 1,
 		poisonDamageByType: {
 			"*-clean": 0,
-			"*-poison": 6
+			"*-poison": 8
 		},
 		handbook: {
 			groupBy: ["dart-*"]

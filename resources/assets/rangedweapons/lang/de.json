@@ -121,4 +121,9 @@
 	"item-hand_cannon_ornate-steel-molybdochalkos": "Verziertes Stahl-Handrohr mit Kupferblei",
 	"item-arquebus_ornate-silver": "Verzierte Silber-Arkebuse",
 	"item-arquebus_ornate-gold": "Verzierte Gold-Arkebuse",
+	"item-poisonportion": "Pfeilgift-Portion",
+    "incontainer-item-poisonportion": "Pfeilgift",
+    "item-poisonmash": "Gift",
+    "item-handbooktitle-poisonmash": "Gebrauch:",
+    "item-handbooktext-poisonmash": "Kombiniere sechs Gift mit einem Harz und einer Schale, um Pfeilgift zu bekommen."
 }

@@ -1,10 +1,16 @@
 {
 	ingredientPattern: "A	P",
 	ingredients: {
-		"A": { type: "item", code: "game:arrow-*-clean", name: "metal", quantity: 5 },
-		"P": { type: "block", code: "poisonbowl", returnedStack: { type: "block", code: "game:bowl-burned" } },
+		"A": { type: "item", code: "game:arrow-*", name: "metal", quantity: 1 },
+		"P": { type: "block", code: "game:bowl-fired" },
 	},
+	attributes: {
+		liquidContainerProps: {
+			requiresContent: { type: "item", code: "rangedweapons:poisonportion" },
+			requiresLitres: 0.2
+		}
+	},		
 	width: 1,
 	height: 2,
-	output: { type: "item", code: "game:arrow-{metal}-poison", quantity: 5  }
+	output: { type: "item", code: "poison_arrow-{metal}", quantity: 1  }
 }

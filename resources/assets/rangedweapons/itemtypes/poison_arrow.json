@@ -61,7 +61,7 @@
 			"*-steel": 2.5
 		},
 		breakChanceOnImpact: 1,
-		poisonDamage: 9,
+		poisonDamage: 12,
 		handbook: {
 			groupBy: ["arrow-*"]
 		}

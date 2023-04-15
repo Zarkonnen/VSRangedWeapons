@@ -1,0 +1,1718 @@
+[
+
+{
+	file: "cats:entities/land/cat-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "cats:entities/land/cat-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "cats:entities/land/cat-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "cats:entities/land/cat-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "cats:entities/land/cat-kitten",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "cats:entities/land/cat-kitten",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/alpaca-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/alpaca-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/alpaca-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/alpaca-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/alpaca-lamb",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/alpaca-lamb",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/camel-calf",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/camel-calf",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/camel-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/camel-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/camel-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/camel-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/caribou-calf",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/caribou-calf",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/caribou-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/caribou-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/caribou-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/caribou-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/cassowary-chick",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/cassowary-chick",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/cassowary-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/cassowary-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/cassowary-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/cassowary-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/cassowary-youngling",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/cassowary-youngling",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/elephant-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/elephant-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/elephant-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/elephant-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/elephant-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/elephant-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/gecko",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/gecko",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/hamster-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/hamster-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/hamster-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/hamster-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/hamster-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/hamster-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/honeybadger-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/honeybadger-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/honeybadger-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/honeybadger-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/honeybadger-pup",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/honeybadger-pup",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/kiwi-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/kiwi-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/kiwi-hen",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/kiwi-hen",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/kiwi-henpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/kiwi-henpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/kiwi-rooster",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/kiwi-rooster",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/kiwi-roosterpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/kiwi-roosterpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/komododragon",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/komododragon",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/puma-cub",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/puma-cub",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/puma-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/puma-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/puma-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/puma-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/salamander",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/salamander",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/squirrel-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/squirrel-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/squirrel-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/squirrel-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/squirrel-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/squirrel-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/tiger-cub",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/tiger-cub",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/tiger-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/tiger-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/tiger-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/tiger-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/toad",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/toad",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/tortoise-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/tortoise-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/tortoise-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/tortoise-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "entities/land/tortoise-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "entities/land/tortoise-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "direwolves:entities/land/dire-wolf-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "direwolves:entities/land/dire-wolf-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "direwolves:entities/land/dire-wolf-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "direwolves:entities/land/dire-wolf-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "direwolves:entities/land/dire-wolf-pup",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "direwolves:entities/land/dire-wolf-pup",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "shark:entities/water/pirahna",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "shark:entities/water/pirahna",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "shark:entities/water/shark",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "shark:entities/water/shark",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "shark:entities/water/whiteshark",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "shark:entities/water/whiteshark",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "farmlife:entities/land/dog-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "farmlife:entities/land/dog-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "farmlife:entities/land/dog-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "farmlife:entities/land/dog-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "farmlife:entities/land/dog-pup",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "farmlife:entities/land/dog-pup",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "feverstonehorses:entities/land/foal",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "feverstonehorses:entities/land/foal",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "feverstonehorses:entities/land/horse",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "feverstonehorses:entities/land/horse",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "pantherinae:entities/land/pantherinae-neofelis-cub",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "pantherinae:entities/land/pantherinae-neofelis-cub",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "pantherinae:entities/land/pantherinae-neofelis-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "pantherinae:entities/land/pantherinae-neofelis-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "pantherinae:entities/land/pantherinae-neofelis-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "pantherinae:entities/land/pantherinae-neofelis-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "pantherinae:entities/land/pantherinae-panthera-cub",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "pantherinae:entities/land/pantherinae-panthera-cub",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "pantherinae:entities/land/pantherinae-panthera-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "pantherinae:entities/land/pantherinae-panthera-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "pantherinae:entities/land/pantherinae-panthera-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "pantherinae:entities/land/pantherinae-panthera-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "foxtaming:entities/land/tame-fox-arctic-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "foxtaming:entities/land/tame-fox-arctic-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "foxtaming:entities/land/tame-fox-arctic-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "foxtaming:entities/land/tame-fox-arctic-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "foxtaming:entities/land/tame-fox-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "foxtaming:entities/land/tame-fox-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "foxtaming:entities/land/tame-fox-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "foxtaming:entities/land/tame-fox-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "foxtaming:entities/land/tame-fox-pup",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "foxtaming:entities/land/tame-fox-pup",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/deer-fawn",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/deer-fawn",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/deer-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/deer-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/deer-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/deer-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/gemsbok-calf",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/gemsbok-calf",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/gemsbok-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/gemsbok-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/gemsbok-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/gemsbok-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "lichen:entities/land/white-hart",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "lichen:entities/land/white-hart",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/capercaillie-chick",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/capercaillie-chick",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/capercaillie-cock",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/capercaillie-cock",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/capercaillie-cockpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/capercaillie-cockpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/capercaillie-hen",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/capercaillie-hen",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/capercaillie-henpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/capercaillie-henpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/goldenpheasant-chick",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/goldenpheasant-chick",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/goldenpheasant-hen",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/goldenpheasant-hen",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/goldenpheasant-henpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/goldenpheasant-henpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/goldenpheasant-cock",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/goldenpheasant-cock",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/goldenpheasant-cockpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/goldenpheasant-cockpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/pheasant-chick",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/pheasant-chick",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/pheasant-hen",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/pheasant-hen",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/pheasant-henpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/pheasant-henpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/pheasant-cock",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/pheasant-cock",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "moreanimals:entities/pheasant-cockpoult",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "moreanimals:entities/pheasant-cockpoult",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "OrnamentalFish:entities/water/betta",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "OrnamentalFish:entities/water/betta",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "OrnamentalFish:entities/water/goldfish",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "OrnamentalFish:entities/water/goldfish",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "OrnamentalFish:entities/water/guppy",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "OrnamentalFish:entities/water/guppy",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "OrnamentalFish:entities/water/koi",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "OrnamentalFish:entities/water/koi",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/alpacapackanimal-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/alpacapackanimal-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/alpacapackanimal-lamb",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/alpacapackanimal-lamb",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/alpacapackanimal-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/alpacapackanimal-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/camelpackanimal-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/camelpackanimal-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/camelpackanimal-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/camelpackanimal-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/camelpackanimal-calf",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/camelpackanimal-calf",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/elephantpackanimal-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/elephantpackanimal-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/elephantpackanimal-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/elephantpackanimal-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/elephantpackanimal-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/elephantpackanimal-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/reindeerpackanimal-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/reindeerpackanimal-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/reindeerpackanimal-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/reindeerpackanimal-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "packanimals:entities/land/reindeerpackanimal-calf",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "packanimals:entities/land/reindeerpackanimal-calf",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "primitivesurvival:entities/land/snake-blackrat",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "primitivesurvival:entities/land/snake-blackrat",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "primitivesurvival:entities/land/snake-chainviper",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "primitivesurvival:entities/land/snake-chainviper",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "primitivesurvival:entities/land/snake-coachwhip",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "primitivesurvival:entities/land/snake-coachwhip",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "primitivesurvival:entities/land/snake-pitviper",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "primitivesurvival:entities/land/snake-pitviper",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/crow/c_crow",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/crow/c_crow",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/duck/duck-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/duck/duck-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/duck/duck-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/duck/duck-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/duck/duck-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/duck/duck-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/hedgehog/hedgehog-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/hedgehog/hedgehog-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/hedgehog/hedgehog-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/hedgehog/hedgehog-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/hedgehog/hedgehog-baby",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/hedgehog/hedgehog-baby",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-male-black",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-male-black",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-female-black",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-female-black",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-baby-black",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-baby-black",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-male-brown",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-male-brown",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-female-brown",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-female-brown",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-baby-brown",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-baby-brown",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-male-red",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-male-red",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-female-red",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-female-red",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-baby-red",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/squirrel/squirrel-baby-red",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/yak/yak-calf",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/yak/yak-calf",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/yak/yak-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/yak/yak-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "thecritterpack:entities/land/yak/yak-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "thecritterpack:entities/land/yak/yak-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "wolftaming:entities/land/tame-wolf-female",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "wolftaming:entities/land/tame-wolf-female",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "wolftaming:entities/land/tame-wolf-male",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "wolftaming:entities/land/tame-wolf-male",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+
+{
+	file: "wolftaming:entities/land/tame-wolf-pup",
+	op: "add",
+	path: "/server/behaviors/-",
+	value: { code: "poisonable" }
+},
+{
+	file: "wolftaming:entities/land/tame-wolf-pup",
+	op: "add",
+	path: "/client/behaviors/-",
+	value: { code: "poisonable" }
+},
+]
