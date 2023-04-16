@@ -125,5 +125,9 @@
     "incontainer-item-poisonportion": "Pfeilgift",
     "item-poisonmash": "Gift",
     "item-handbooktitle-poisonmash": "Gebrauch:",
-    "item-handbooktext-poisonmash": "Kombiniere sechs Gift mit einem Harz und einer Schale, um Pfeilgift zu bekommen."
+    "item-handbooktext-poisonmash": "Kombiniere sechs Gift mit einem Harz und einer Schale, um Pfeilgift zu bekommen.",
+    "item-wheellock": "Radschloss-Pistole",
+	"item-pistol_barrel": "Pistolenlauf",
+	"item-wheellock_ornate-gold": "Verzierte Gold-Radschloss-Pistole",
+	"item-wheellock_ornate-silver": "Verzierte Silber-Radschloss-Pistole"
 }

@@ -1,0 +1,76 @@
+{
+	code: "wheellock_ornate",
+	class: "ItemRangedWeapon",
+	variantgroups: [
+		{ code: "decoration", states: ["gold", "silver" ] }
+	],
+	maxstacksize: 1,
+	durability: 110,
+	shape: {
+		base: "wheellock-ornate",
+		alternates: [
+			{ base: "wheellock-ornate-loading" },
+			{ base: "wheellock-ornate-loading" },
+			{ base: "wheellock-ornate-loading" },
+			{ base: "wheellock-ornate-loading" },
+			{ base: "wheellock-ornate" },
+			{ base: "wheellock-ornate" },
+			{ base: "wheellock-ornate" }
+		]
+	},
+	texturesByType: {
+		"*": {
+			"gold": { base: "game:block/metal/ingot/{decoration}" }
+		}
+	},
+	tool: "bow",
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	attributes: {
+		damage: 9,
+		accuracyBonus: -0.1,
+		toolrackTransform: {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 90, y: 90, z: 0 },
+			origin: { x: 0.15, y: -0.1, z: 0.45 },
+			scale: 1.8
+		},
+		projectile: "firedbullet-*",
+		ammo: "arquebus_ammo-*",
+		stayLoaded: true,
+		stayLoadedInInventory: true,
+		loadedVariant: 7,
+		firingVariant: 8,
+		numDrawStages: 1,
+		releaseSound: "sounds/arquebus",
+		fizzleSound: "sounds/arquebus-fizzle",
+		loadSound: "sounds/wheellock-load",
+		releaseFire: true,
+		drawTime: 2.5,
+		drawSpeed: 1,
+		projectileSpeed: 3,
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 1.5, y: -1.3, z: 0.5 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -129, y: 61, z: -37 },
+		origin: { x: 0.4, y: 0, z: 0.55 },
+		scale: 2.65
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 90 },
+		origin: { x: 0.45, y: 0, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransform: {
+		translation: { x: -0.55, y: -0.45, z: -0.5 },
+		rotation: { x: 90, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1
+	}
+}

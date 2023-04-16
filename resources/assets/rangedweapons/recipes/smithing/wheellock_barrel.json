@@ -1,0 +1,18 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["steel"] },
+	pattern: [[
+		"######",
+		"######",
+		"######"
+	],[
+		"######",
+		"______",
+		"######"
+	],[
+		"######",
+		"######",
+		"######"
+	]],
+	name: "Wheellock Barrel",
+	output: { type: "item", code: "pistol_barrel" }
+}

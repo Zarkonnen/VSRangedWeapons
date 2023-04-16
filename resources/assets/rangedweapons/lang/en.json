@@ -125,5 +125,9 @@
     "incontainer-item-poisonportion": "Arrow poison",
     "item-poisonmash": "Poison mash",
     "item-handbooktitle-poisonmash": "Usage:",
-    "item-handbooktext-poisonmash": "Combine six with a lump of resin and an empty bowl to get arrow poison."
+    "item-handbooktext-poisonmash": "Combine six with a lump of resin and an empty bowl to get arrow poison.",
+	"item-wheellock": "Wheellock pistol",
+	"item-pistol_barrel": "Pistol barrel",
+	"item-wheellock_ornate-gold": "Ornate gold wheellock pistol",
+	"item-wheellock_ornate-silver": "Ornate silver wheellock pistol",
 }

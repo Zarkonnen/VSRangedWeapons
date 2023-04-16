@@ -1,5 +1,29 @@
 [
 	{
+		file: "game:entities/water/bass",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/water/bass",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/water/salmon",
+		op: "add",
+		path: "/server/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
+		file: "game:entities/water/salmon",
+		op: "add",
+		path: "/client/behaviors/-",
+		value: { code: "poisonable" }
+	},
+	{
 		file: "game:entities/land/gazelle",
 		op: "add",
 		path: "/server/behaviors/-",

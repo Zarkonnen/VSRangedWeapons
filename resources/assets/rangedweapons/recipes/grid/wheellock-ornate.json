@@ -1,0 +1,13 @@
+{
+	ingredientPattern: "BMW,PT_",
+	ingredients: {
+		"B": { type: "item", code: "pistol_barrel" },
+		"M": { type: "block", code: "game:metal-parts", quantity: 3 },
+		"T": { type: "item", code: "trigger-*" },
+		"W": { type: "item", code: "game:plank-*" },
+		"P": { type: "item", code: "game:metalplate-*", name: "decoration", "allowedVariants": ["silver", "gold"] },
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "wheellock_ornate-{decoration}", quantity: 1  }
+}

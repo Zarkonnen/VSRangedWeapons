@@ -1,0 +1,29 @@
+{
+	code: "pistol_barrel",
+	shape: {  base: "pistol-barrel" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	fpHandTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 1.5, y: -1.3, z: -0.2 },
+		scale: 3
+	},
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -129, y: 41, z: -37 },
+		origin: { x: 0.45, y: 0.05, z: 0.25 },
+		scale: 3.42
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 90 },
+		origin: { x: 0.45, y: 0, z: 0.5 },
+		scale: 4.8
+	},
+	tpHandTransform: {
+		translation: { x: -0.55, y: -0.15, z: -0.5 },
+		rotation: { x: 90, y: 0, z: -90 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1
+	}
+}

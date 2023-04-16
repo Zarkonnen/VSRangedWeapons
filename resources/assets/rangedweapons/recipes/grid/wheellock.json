@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "BMW,_T_",
+	ingredients: {
+		"B": { type: "item", code: "pistol_barrel" },
+		"M": { type: "block", code: "game:metal-parts", quantity: 3 },
+		"T": { type: "item", code: "trigger-*" },
+		"W": { type: "item", code: "game:plank-*" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "wheellock", quantity: 1  }
+}

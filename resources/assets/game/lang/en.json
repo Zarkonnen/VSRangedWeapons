@@ -6,5 +6,6 @@
     "rangedweapon-separateload": "Requires separate loading.",
     "rangedweapon-unloadtime": "Unloads after {0} seconds.",
     "rangedweapon-unloadsinwater": "Unloads in contact with water.",
-    "piercing-damage": " Piercing damage"
+    "piercing-damage": " Piercing damage",
+    "rangedweapon-stayloadedininventory": "Stays loaded in inventory."
 }
