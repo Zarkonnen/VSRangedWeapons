@@ -129,5 +129,7 @@
     "item-wheellock": "Radschloss-Pistole",
 	"item-pistol_barrel": "Pistolenlauf",
 	"item-wheellock_ornate-gold": "Verzierte Gold-Radschloss-Pistole",
-	"item-wheellock_ornate-silver": "Verzierte Silber-Radschloss-Pistole"
+	"item-wheellock_ornate-silver": "Verzierte Silber-Radschloss-Pistole",
+	"item-musket": "Schwere Muskete",
+	"item-musket_barrel": "Musketenlauf"
 }

@@ -32,13 +32,13 @@
 	attributes: {
 		accuracyBonus: -0.2,
 		damageByType: {
-			"*-brass": 7.5,
-			"*-bismuthbronze": 8,
-			"*-tinbronze": 8,
-			"*-blackbronze": 8,
-			"*-iron": 9,
-			"*-meteoriciron": 9.5,
-			"*-steel": 10
+			"*-brass": 14,
+			"*-bismuthbronze": 15,
+			"*-tinbronze": 15,
+			"*-blackbronze": 16,
+			"*-iron": 17,
+			"*-meteoriciron": 18,
+			"*-steel": 20
 		},
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },

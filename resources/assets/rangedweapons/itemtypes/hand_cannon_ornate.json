@@ -33,13 +33,13 @@
 	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
 		damageByType: {
-			"*-brass-*": 6.5,
-			"*-bismuthbronze-*": 7,
-			"*-tinbronze-*": 7,
-			"*-blackbronze-*": 7,
-			"*-iron-*": 8,
-			"*-meteoriciron-*": 8.5,
-			"*-steel-*": 9
+			"*-brass-*": 14,
+			"*-bismuthbronze-*": 15,
+			"*-tinbronze-*": 15,
+			"*-blackbronze-*": 16,
+			"*-iron-*": 17,
+			"*-meteoriciron-*": 18,
+			"*-steel-*": 20
 		},
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },

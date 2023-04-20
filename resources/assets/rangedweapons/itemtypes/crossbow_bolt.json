@@ -44,16 +44,16 @@
 	},
 	attributes: {
 		damageByType: {
-			"*-flint-*": -0.5,
+			"*-flint-*": -1,
 			"*-copper-*": 0,
-			"*-tinbronze-*": 1,
+			"*-tinbronze-*": 1.5,
 			"*-gold-*": 1,
 			"*-silver-*": 1,
-			"*-bismuthbronze-*": 1,
-			"*-blackbronze-*": 1.5,
-			"*-iron-*": 2,
-			"*-meteoriciron-*": 2.25,
-			"*-steel-*": 2.5
+			"*-bismuthbronze-*": 1.5,
+			"*-blackbronze-*": 2.5,
+			"*-iron-*": 3,
+			"*-meteoriciron-*": 3.5,
+			"*-steel-*": 4
 		},
 		breakChanceOnImpactByType: {
 			"*-poison": 1,

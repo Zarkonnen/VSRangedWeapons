@@ -7,5 +7,7 @@
     "rangedweapon-unloadtime": "Unloads after {0} seconds.",
     "rangedweapon-unloadsinwater": "Unloads in contact with water.",
     "piercing-damage": " Piercing damage",
-    "rangedweapon-stayloadedininventory": "Stays loaded in inventory."
+    "rangedweapon-stayloadedininventory": "Stays loaded in inventory.",
+    "rangedweapon-preventMoveWhileAiming": "Cannot move while aiming.",
+    "rangedweapon-preventMoveWhileLoading": "Cannot move while loading."
 }

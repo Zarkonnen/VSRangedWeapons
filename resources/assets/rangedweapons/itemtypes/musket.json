@@ -1,45 +1,47 @@
 {
-	code: "wheellock",
+	code: "musket",
 	class: "ItemRangedWeapon",
 	maxstacksize: 1,
-	durability: 80,
+	durability: 300,
 	shape: {
-		base: "wheellock",
+		base: "musket-unloaded",
 		alternates: [
-			{ base: "wheellock-loading" },
-			{ base: "wheellock-loading" },
-			{ base: "wheellock-loading" },
-			{ base: "wheellock-loading" },
-			{ base: "wheellock" },
-			{ base: "wheellock" },
-			{ base: "wheellock" }
+			{ base: "musket-loading-2" },
+			{ base: "musket-loading-0" },
+			{ base: "musket-loading-1" },
+			{ base: "musket-loading-0" },
+			{ base: "musket-loading-2" },
+			{ base: "musket-aiming" },
+			{ base: "musket-firing" }
 		]
 	},
 	tool: "bow",
 	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
-		damage: 15,
-		accuracyBonus: -0.1,
+		damage: 40,
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },
-			rotation: { x: 90, y: 90, z: 0 },
-			origin: { x: 0.15, y: -0.1, z: 0.45 },
-			scale: 1.8
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.3, y: 0.1, z: 1 },
+			scale: 2.27
 		},
 		projectile: "firedbullet-*",
 		ammo: "arquebus_ammo-*",
 		stayLoaded: true,
-		stayLoadedInInventory: true,
 		loadedVariant: 7,
 		firingVariant: 8,
-		numDrawStages: 1,
-		releaseSound: "sounds/pistol",
+		numDrawStages: 5,
+		unloadAfterMilliseconds: 40000,
+		releaseSound: "sounds/musket",
 		fizzleSound: "sounds/arquebus-fizzle",
-		loadSound: "sounds/wheellock-load",
+		loadSound: "sounds/arquebus-load",
 		releaseFire: true,
-		drawTime: 2.5,
+		waterUnloads: true,
+		drawTime: 4.5,
 		drawSpeed: 1,
 		projectileSpeed: 3,
+		preventMoveWhileAiming: true,
+		preventMoveWhileLoading: true
 	},
 	fpHandTransform: {
 		translation: { x: 0, y: 0, z: 0 },
@@ -49,18 +51,18 @@
 	},
 	guiTransform: {
 		translation: { x: 0, y: 0, z: 0 },
-		rotation: { x: -129, y: 61, z: -37 },
-		origin: { x: 0.4, y: 0, z: 0.55 },
-		scale: 2.65
+		rotation: { x: -129, y: 41, z: -37 },
+		origin: { x: 0.7, y: 0, z: 0.65 },
+		scale: 1.64
 	},
 	groundTransform: {
 		translation: { x: 0, y: 0, z: 0 },
 		rotation: { x: 0, y: 0, z: 90 },
 		origin: { x: 0.45, y: 0, z: 0.5 },
-		scale: 4.8
+		scale: 6.0
 	},
 	tpHandTransform: {
-		translation: { x: -0.65, y: -0.25, z: -0.5 },
+		translation: { x: -0.55, y: -0.3, z: -0.5 },
 		rotation: { x: 90, y: 0, z: -90 },
 		origin: { x: 0.5, y: 0, z: 0.5 },
 		scale: 1

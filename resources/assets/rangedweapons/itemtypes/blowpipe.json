@@ -18,7 +18,7 @@
 	tool: "bow",
 	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
-		damage: 1.5,
+		damage: 1.75,
 		accuracyBonus: 0.2,
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },

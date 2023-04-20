@@ -193,6 +193,9 @@ namespace RangedWeapons
                 {
                     interactingEntity.World.PlaySoundAt(AssetLocation.Create(Attributes["aimSound"].AsString(""), Code.Domain), interactingEntity, (interactingEntity as EntityPlayer)?.Player, false, 8);
                 }
+                if (Attributes["preventMoveWhileAiming"].AsBool(false)) {
+                    interactingEntity.Stats.Set("walkspeed", "rangedweaponsmod", -interactingEntity.Stats.GetBlended("walkspeed"));
+                }
             }
             else
             {
@@ -213,6 +216,9 @@ namespace RangedWeapons
                     if (Attributes["loadSound"].AsString("").Length > 0)
                     {
                         interactingEntity.World.PlaySoundAt(AssetLocation.Create(Attributes["loadSound"].AsString(""), Code.Domain), interactingEntity, player, false, 8);
+                    }
+                    if (Attributes["preventMoveWhileLoading"].AsBool(false)) {
+                        interactingEntity.Stats.Set("walkspeed", "rangedweaponsmod", -interactingEntity.Stats.GetBlended("walkspeed"));
                     }
                 }
                 else
@@ -356,6 +362,9 @@ namespace RangedWeapons
             // api.Logger.Error("interactStop");
             // api.Logger.Error("loaded? " + slot.Itemstack.Attributes.GetBool("loaded", false));
             // api.Logger.Error("aimingCancel? " + interactingEntity.Attributes.GetInt("aimingCancel"));
+            if (Attributes["preventMoveWhileAiming"].AsBool(false) || Attributes["preventMoveWhileLoading"].AsBool(false)) {
+                interactingEntity.Stats.Set("walkspeed", "rangedweaponsmod", 0);
+            }
             interactingEntity.Attributes.SetInt("aiming", 0);
             if (interactingEntity.Attributes.GetInt("aimingCancel") == 1)
             {
@@ -550,6 +559,8 @@ namespace RangedWeapons
             int unloadMs = inSlot.Itemstack.Collectible?.Attributes["unloadAfterMilliseconds"].AsInt(0) ?? 0;
             if (unloadMs != 0) dsc.AppendLine(Lang.Get("rangedweapon-unloadtime", unloadMs / 1000));
             if (inSlot.Itemstack.Collectible?.Attributes["waterUnloads"].AsBool(false) ?? false) dsc.AppendLine(Lang.Get("rangedweapon-unloadsinwater"));
+            if (inSlot.Itemstack.Collectible?.Attributes["preventMoveWhileAiming"].AsBool(false) ?? false) dsc.AppendLine(Lang.Get("rangedweapon-preventMoveWhileAiming"));
+            if (inSlot.Itemstack.Collectible?.Attributes["preventMoveWhileLoading"].AsBool(false) ?? false) dsc.AppendLine(Lang.Get("rangedweapon-preventMoveWhileLoading"));
         }
 
 

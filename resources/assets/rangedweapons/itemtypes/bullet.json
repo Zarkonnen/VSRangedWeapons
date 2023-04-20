@@ -36,9 +36,9 @@
 	},
 	attributes: {
 		damageByType: {
-			"*-copper": -3,
-			"*-bismuth": -2,
-			"*-gold": 5,
+			"*-copper": -5,
+			"*-bismuth": -3,
+			"*-gold": 7,
 			"*-silver": 0,
             "*-lead": 0
 		},

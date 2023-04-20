@@ -18,7 +18,7 @@
 	tool: "bow",
 	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
 	attributes: {
-		damage: 15,
+		damage: 25,
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: 90, y: 90, z: 0 },
@@ -31,7 +31,7 @@
 		loadedVariant: 7,
 		firingVariant: 8,
 		numDrawStages: 5,
-		unloadAfterMilliseconds: 20000,
+		unloadAfterMilliseconds: 40000,
 		releaseSound: "sounds/arquebus",
 		fizzleSound: "sounds/arquebus-fizzle",
 		loadSound: "sounds/arquebus-load",

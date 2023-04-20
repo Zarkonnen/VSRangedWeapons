@@ -36,10 +36,10 @@
 	attributes: {
 		damage: 4,
 		damageByType: {
-			"*-composite": 4.5,
-			"*-iron": 5,
-			"*-meteoriciron": 5.5,
-			"*-steel": 6
+			"*-composite": 10,
+			"*-iron": 12,
+			"*-meteoriciron": 13,
+			"*-steel": 14
 		},
 		toolrackTransform: {
 			translation: { x: 0, y: 0, z: 0 },

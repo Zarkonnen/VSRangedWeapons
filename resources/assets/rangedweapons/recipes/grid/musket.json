@@ -1,0 +1,12 @@
+{
+	ingredientPattern: "BTW,S__",
+	ingredients: {
+		"B": { type: "item", code: "musket_barrel" },
+		"T": { type: "item", code: "trigger-*" },
+		"W": { type: "item", code: "game:plank-*" },
+		"S": { type: "item", code: "game:stick" }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "musket", quantity: 1  }
+}
