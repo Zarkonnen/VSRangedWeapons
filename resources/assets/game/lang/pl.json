@@ -1,0 +1,13 @@
+{
+	"item-poisonportion": "Porcja trucizny do zatruwania strzał",
+    "incontainer-item-poisonportion": "Trucizna do zatruwania strzał",
+    "craftinginfo-poison-title": "Mechanika Gry: Trucizna",
+    "craftinginfo-poison-text": "<strong>Wytwarzanie</strong><br>Aby wytworzyć truciznę do strzał, przetwórz najpierw konwalię majową lub jakikolwiek trujący grzyb w trującą papkę. Następnie połącz ze sobą: sześć trujących papek, sztukę żywicy i miskę, aby otrzymać truciznę do strzał.<br><br>Możesz łączyć truciznę do strzał z różnymi pociskami (strzały, bełty lub strzałki), aby uzyskać ich zatrute wersje.<br><br><strong>Użycie</strong><br>Strzelanie do zwierząt zatrutymi pociskami spowolni je oraz będzie im powoli zadawać obrażenia przez pewien okres czasu. Kilkukrotne trafienie celu nie przyspieszy tempa zadawania obrażeń, ale przedłuży czas trwania efektu. Zwróć uwagę na to, że trucizna nie działa na włóczęgów (Drifter) i szarańcze (Locust).",
+    "rangedweapon-separateload": "Wymaga oddzielnego ładowania.",
+    "rangedweapon-unloadtime": "Rozładunek za {0} sekund.",
+    "rangedweapon-unloadsinwater": "Rozładowuje się przy kontakcie z wodą.",
+    "piercing-damage": " Obrażenia przebijające",
+    "rangedweapon-stayloadedininventory": "Pozostaje załadowane w ekwipunku.",
+    "rangedweapon-preventMoveWhileAiming": "Podczas celowania nie można się poruszać.",
+    "rangedweapon-preventMoveWhileLoading": "Podczas przeładowywania nie można się poruszać"
+}
